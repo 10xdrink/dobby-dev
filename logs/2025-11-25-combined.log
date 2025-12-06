@@ -1,0 +1,2738 @@
+2025-11-25 09:54:18 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 09:54:18 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 09:54:18 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 09:54:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 09:54:22 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 09:54:22 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 09:54:24 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 09:54:24 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 09:54:26 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 09:54:26 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 09:54:26 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 09:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:25:00.068Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 09:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7c0f102a01399671',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 09:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7c0f102a01399671',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 09:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:25:00.068Z',[39m
+[32m  endTime: '2025-11-25T04:25:00.576Z',[39m
+[32m  duration: '508ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 09:57:10 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 09:57:26 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 09:57:26 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 09:57:26 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 09:57:27 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 09:57:29 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 09:57:29 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 09:57:32 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 09:57:32 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 09:57:32 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-25T04:30:00.104Z'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:30:00.122Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '6f99f04fbda7973d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T04:30:00.131Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 5[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b01776dcc2f41cd',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '691c5c02d6ce283123df63fa',[39m
+[34m  shopName: 'Furniture Store'[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T04:30:00.173Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'fadd7777039d51f5',[39m
+[34m  shopId: '691c5c02d6ce283123df63fa',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T04:30:00.131Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '6f99f04fbda7973d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:30:00.122Z',[39m
+[32m  endTime: '2025-11-25T04:30:00.248Z',[39m
+[32m  duration: '126ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T04:30:00.131Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T04:30:00.131Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'fadd7777039d51f5',[39m
+[34m  shopId: '691c5c02d6ce283123df63fa',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'fadd7777039d51f5',[39m
+[34m  shopId: '691c5c02d6ce283123df63fa',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'fadd7777039d51f5',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a5a3612aea6c86199c'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '691c5c02d6ce283123df63fa',[39m
+[32m  shopName: 'Furniture Store'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b01776dcc2f41cd',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  shopName: 'Digital Mongers'[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T04:30:00.173Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8f8d596287b818f4',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8f8d596287b818f4',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8f8d596287b818f4',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8f8d596287b818f4',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a6a3612aea6c86199d'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  shopName: 'Digital Mongers'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b01776dcc2f41cd',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '691ec4abf8305e826814a659',[39m
+[34m  shopName: 'Paras Store'[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T04:30:00.173Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 10:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd7496f453e6f812f',[39m
+[34m  shopId: '691ec4abf8305e826814a659',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 10:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd7496f453e6f812f',[39m
+[34m  shopId: '691ec4abf8305e826814a659',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd7496f453e6f812f',[39m
+[34m  shopId: '691ec4abf8305e826814a659',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: -100,[39m
+[32m  ordersGrowth: -100,[39m
+[32m  previousSales: 246656.36,[39m
+[32m  previousOrders: 3[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd7496f453e6f812f',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a6a3612aea6c86199e'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '691ec4abf8305e826814a659',[39m
+[32m  shopName: 'Paras Store'[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b01776dcc2f41cd',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69216e3589ce729eac4fada0',[39m
+[34m  shopName: 'Mourya Store'[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T04:30:00.173Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f5470a9cc654bdc',[39m
+[34m  shopId: '69216e3589ce729eac4fada0',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f5470a9cc654bdc',[39m
+[34m  shopId: '69216e3589ce729eac4fada0',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f5470a9cc654bdc',[39m
+[34m  shopId: '69216e3589ce729eac4fada0',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f5470a9cc654bdc',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a7a3612aea6c86199f'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69216e3589ce729eac4fada0',[39m
+[32m  shopName: 'Mourya Store'[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b01776dcc2f41cd',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  shopName: 'Developer Store'[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T04:30:00.173Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 10:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2ff664672f1ca60',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 10:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 10:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2ff664672f1ca60',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 10:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2ff664672f1ca60',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: -100,[39m
+[32m  ordersGrowth: -100,[39m
+[32m  previousSales: 899.6999999999998,[39m
+[32m  previousOrders: 1[39m
+[32m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2ff664672f1ca60',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a7a3612aea6c8619a0'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  shopName: 'Developer Store'[39m
+[32m}[39m
+2025-11-25 10:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b01776dcc2f41cd',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 5,[39m
+[32m  successCount: 5,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-25 10:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:35:00.092Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7347e81768c36042',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7347e81768c36042',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:35:00.092Z',[39m
+[32m  endTime: '2025-11-25T04:35:00.353Z',[39m
+[32m  duration: '261ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:40:00.105Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'fc54e5ccf88c62ae',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'fc54e5ccf88c62ae',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:40:00.105Z',[39m
+[32m  endTime: '2025-11-25T04:40:00.564Z',[39m
+[32m  duration: '459ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:45:00.127Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '30f11ee8f357cfac',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '30f11ee8f357cfac',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:45:00.127Z',[39m
+[32m  endTime: '2025-11-25T04:45:00.355Z',[39m
+[32m  duration: '228ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:50:00.038Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '385b26b590478665',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '385b26b590478665',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:50:00.038Z',[39m
+[32m  endTime: '2025-11-25T04:50:00.226Z',[39m
+[32m  duration: '188ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T04:55:00.074Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '1f727a108358ad81',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '1f727a108358ad81',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T04:55:00.074Z',[39m
+[32m  endTime: '2025-11-25T04:55:00.255Z',[39m
+[32m  duration: '181ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:00:00.041Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '81a5169af5b2fa36',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '81a5169af5b2fa36',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:00:00.041Z',[39m
+[32m  endTime: '2025-11-25T05:00:00.204Z',[39m
+[32m  duration: '163ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:05:00.050Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0ebb2a4779de108a',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0ebb2a4779de108a',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:05:00.050Z',[39m
+[32m  endTime: '2025-11-25T05:05:00.717Z',[39m
+[32m  duration: '667ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:10:00.050Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '786cb36e7eb0b85d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '786cb36e7eb0b85d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:10:00.050Z',[39m
+[32m  endTime: '2025-11-25T05:10:00.484Z',[39m
+[32m  duration: '434ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:15:00.076Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '40cbf51055176aa3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '40cbf51055176aa3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:15:00.076Z',[39m
+[32m  endTime: '2025-11-25T05:15:00.472Z',[39m
+[32m  duration: '396ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:20:00.303Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '069aae57c4dabeee',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '069aae57c4dabeee',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:20:00.303Z',[39m
+[32m  endTime: '2025-11-25T05:20:00.439Z',[39m
+[32m  duration: '136ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:25:00.181Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a440b7af5d01f8b0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a440b7af5d01f8b0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:25:00.181Z',[39m
+[32m  endTime: '2025-11-25T05:25:00.387Z',[39m
+[32m  duration: '206ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T05:30:00.405Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:30:00.625Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0540bb9337b9df4a',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'e5fb8fad735a41d9',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-25T05:30:00.635Z'[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T05:30:00.405Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'e5fb8fad735a41d9',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 2[39m
+[32m}[39m
+2025-11-25 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'e5fb8fad735a41d9',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  shopName: 'Digital Mongers'[39m
+[34m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T05:30:00.767Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'f40c76551a38b9ea',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0540bb9337b9df4a',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:30:00.625Z',[39m
+[32m  endTime: '2025-11-25T05:30:00.796Z',[39m
+[32m  duration: '171ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T05:30:00.405Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T05:30:00.405Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'f40c76551a38b9ea',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'f40c76551a38b9ea',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'f40c76551a38b9ea',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a6a3612aea6c86199d'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'e5fb8fad735a41d9',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  shopName: 'Digital Mongers'[39m
+[32m}[39m
+2025-11-25 11:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'e5fb8fad735a41d9',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  shopName: 'Developer Store'[39m
+[34m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T05:30:00.767Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 11:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2fc529621d5a898',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 11:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 11:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2fc529621d5a898',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 11:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'c2fc529621d5a898',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: -100,[39m
+[32m  ordersGrowth: -100,[39m
+[32m  previousSales: 899.6999999999998,[39m
+[32m  previousOrders: 1[39m
+[32m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'c2fc529621d5a898',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a7a3612aea6c8619a0'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'e5fb8fad735a41d9',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  shopName: 'Developer Store'[39m
+[32m}[39m
+2025-11-25 11:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'e5fb8fad735a41d9',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 2,[39m
+[32m  successCount: 2,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-25 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:35:00.044Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9f1a252caff93a56',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9f1a252caff93a56',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:35:00.044Z',[39m
+[32m  endTime: '2025-11-25T05:35:00.215Z',[39m
+[32m  duration: '171ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:40:00.067Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'bf3eedb4752ee654',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'bf3eedb4752ee654',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:40:00.067Z',[39m
+[32m  endTime: '2025-11-25T05:40:00.496Z',[39m
+[32m  duration: '429ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T05:45:00.035Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '3434539d29f1127c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '3434539d29f1127c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T05:45:00.035Z',[39m
+[32m  endTime: '2025-11-25T05:45:00.275Z',[39m
+[32m  duration: '240ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 11:17:56 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 11:18:06 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 11:18:06 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 11:18:06 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 11:18:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 11:18:08 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 11:18:08 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 11:18:10 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 11:18:10 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 11:18:11 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 11:18:11 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 11:18:11 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 11:18:13 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 11:39:52 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 11:39:52 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 11:39:52 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 11:39:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 11:39:54 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 11:39:54 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 11:39:55 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:15:40 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 12:15:40 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 12:15:40 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:15:41 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:15:43 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:41:58 [[31merror[39m] : TypeError: invalidateCache is not a function
+    at Object.<anonymous> (C:\test-dobby-backend\routes\productRoutes.js:37:3)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\test-dobby-backend\server.js:22:23)
+2025-11-25 12:41:59 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:41:59 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:45:05 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:45:14 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 12:45:14 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 12:45:14 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 12:45:15 [[31merror[39m] : TypeError: cacheByUser is not a function
+    at Object.<anonymous> (C:\test-dobby-backend\routes\wishlistRoutes.js:11:40)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\test-dobby-backend\server.js:96:24)
+2025-11-25 12:45:15 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:45:15 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:45:24 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:45:39 [[31merror[39m] : TypeError: cacheMiddleware is not a function
+    at Object.<anonymous> (C:\test-dobby-backend\routes\authRoutes.js:23:49)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\test-dobby-backend\server.js:15:20)
+2025-11-25 12:45:39 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:45:39 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:48:42 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:48:52 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 12:48:52 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 12:48:52 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 12:48:53 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:48:54 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:48:56 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:48:56 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:48:58 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:48:58 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:48:58 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 12:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T07:20:00.038Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 12:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4bfd5848dddbe42e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 12:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4bfd5848dddbe42e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 12:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T07:20:00.038Z',[39m
+[32m  endTime: '2025-11-25T07:20:00.337Z',[39m
+[32m  duration: '299ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 12:50:25 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '6592f18061b3fdbd',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: 'dig***'[39m
+[32m}[39m
+2025-11-25 12:50:25 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:51:06 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:51:18 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 12:51:18 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 12:51:18 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 12:51:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 12:51:20 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:51:20 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:51:22 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:51:22 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:51:24 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:51:24 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:51:24 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 12:51:27 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: 'c5420eb3018ac865',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: 'dig***'[39m
+[32m}[39m
+2025-11-25 12:51:28 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: 'c5420eb3018ac865',[39m
+[32m  event: 'ADMIN_LOGIN_SUCCESS',[39m
+[32m  adminId: new ObjectId('68bbb9966426c479e1ebb928')[39m
+[32m}[39m
+2025-11-25 12:51:28 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:51:44 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '7b96fe6d84da1e83',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: '+91***'[39m
+[32m}[39m
+2025-11-25 12:51:44 [[33mwarn[39m] : [33m{[39m
+[33m  route: 'adminController.adminLogin',[39m
+[33m  requestId: '7b96fe6d84da1e83',[39m
+[33m  event: 'ADMIN_LOGIN_FAILED',[39m
+[33m  reason: 'User not found',[39m
+[33m  identifierType: 'phone'[39m
+[33m}[39m
+2025-11-25 12:51:44 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:52:23 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '5560c95c083f7d4e',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: '+91***'[39m
+[32m}[39m
+2025-11-25 12:52:23 [[33mwarn[39m] : [33m{[39m
+[33m  route: 'adminController.adminLogin',[39m
+[33m  requestId: '5560c95c083f7d4e',[39m
+[33m  event: 'ADMIN_LOGIN_FAILED',[39m
+[33m  reason: 'User not found',[39m
+[33m  identifierType: 'phone'[39m
+[33m}[39m
+2025-11-25 12:52:23 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T07:25:00.143Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 12:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'cb2d3ec93a525bab',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 12:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'cb2d3ec93a525bab',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 12:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T07:25:00.143Z',[39m
+[32m  endTime: '2025-11-25T07:25:00.317Z',[39m
+[32m  duration: '174ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 12:58:06 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 12:58:38 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 12:58:38 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 12:58:38 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 12:58:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 12:58:40 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 12:58:40 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 12:58:44 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:58:44 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:58:46 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 12:58:46 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 12:58:46 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 12:59:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '43a13c82974d896c',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: '856***'[39m
+[32m}[39m
+2025-11-25 12:59:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '43a13c82974d896c',[39m
+[32m  event: 'ADMIN_LOGIN_SUCCESS',[39m
+[32m  adminId: new ObjectId('68bbb9966426c479e1ebb928')[39m
+[32m}[39m
+2025-11-25 12:59:02 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:59:12 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '309dd30aef8e3773',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: '+91***'[39m
+[32m}[39m
+2025-11-25 12:59:12 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '309dd30aef8e3773',[39m
+[32m  event: 'ADMIN_LOGIN_SUCCESS',[39m
+[32m  adminId: new ObjectId('68bbb9966426c479e1ebb928')[39m
+[32m}[39m
+2025-11-25 12:59:12 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:59:15 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '5aa47d2d30b9f14a',[39m
+[32m  event: 'ADMIN_LOGIN_ATTEMPT',[39m
+[32m  identifier: '+91***'[39m
+[32m}[39m
+2025-11-25 12:59:15 [[32minfo[39m] : [32m{[39m
+[32m  route: 'adminController.adminLogin',[39m
+[32m  requestId: '5aa47d2d30b9f14a',[39m
+[32m  event: 'ADMIN_LOGIN_SUCCESS',[39m
+[32m  adminId: new ObjectId('68bbb9966426c479e1ebb928')[39m
+[32m}[39m
+2025-11-25 12:59:15 [[32minfo[39m] : [32mHTTP POST /api/admin/login[39m
+2025-11-25 12:59:26 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 13:16:42 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 13:16:42 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 13:16:42 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 13:16:43 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 13:16:45 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 13:16:45 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 13:16:47 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 13:16:47 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 13:16:47 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 13:16:48 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 15:00:27 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 15:00:27 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 15:00:27 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 15:00:28 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 15:00:29 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 15:00:29 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 15:00:31 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 15:00:31 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 15:00:31 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 15:00:39 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 15:55:06 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 15:55:06 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 15:55:06 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 15:55:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 15:55:08 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 15:55:08 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 15:55:13 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 15:55:13 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 15:55:15 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 15:55:15 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 15:55:15 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 15:56:02 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 15:56:32 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 15:56:33 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 15:56:35 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 15:56:35 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 15:56:36 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 16:40:23 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 16:40:23 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 16:40:23 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 16:40:24 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 16:40:25 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 16:40:25 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 16:40:26 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 17:23:24 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 17:23:24 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 17:23:24 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 17:23:25 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 17:23:26 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 17:23:27 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 17:23:27 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 17:23:28 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 17:23:28 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 17:23:28 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 17:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T11:55:00.132Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'de041bfd523c9d1e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'de041bfd523c9d1e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T11:55:00.132Z',[39m
+[32m  endTime: '2025-11-25T11:55:00.475Z',[39m
+[32m  duration: '343ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:00:00.074Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'dff6f29c002fedad',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'dff6f29c002fedad',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:00:00.074Z',[39m
+[32m  endTime: '2025-11-25T12:00:00.303Z',[39m
+[32m  duration: '229ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:05:00.056Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'be90173f7a48a8d6',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'be90173f7a48a8d6',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:05:00.056Z',[39m
+[32m  endTime: '2025-11-25T12:05:00.243Z',[39m
+[32m  duration: '187ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:10:00.059Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9ae6bd36620ff1fd',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9ae6bd36620ff1fd',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:10:00.059Z',[39m
+[32m  endTime: '2025-11-25T12:10:00.285Z',[39m
+[32m  duration: '226ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:15:00.101Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9b89795ee7b0cfec',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:45:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9b89795ee7b0cfec',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:45:01 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:15:00.101Z',[39m
+[32m  endTime: '2025-11-25T12:15:01.105Z',[39m
+[32m  duration: '1004ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:20:00.050Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a2168280d9626302',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a2168280d9626302',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:20:00.050Z',[39m
+[32m  endTime: '2025-11-25T12:20:00.208Z',[39m
+[32m  duration: '158ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 17:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:25:00.142Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 17:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '637e8fd8720fe30e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 17:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '637e8fd8720fe30e',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 17:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:25:00.142Z',[39m
+[32m  endTime: '2025-11-25T12:25:00.425Z',[39m
+[32m  duration: '283ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T12:30:00.225Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-25T12:30:00.363Z'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: 'addef29798830775',[39m
+[32m  event: 'PERIODIC_RECALCULATION_START',[39m
+[32m  time: '2025-11-25T12:30:00.382Z'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:30:00.392Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '2e21757c164689c9',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 3[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '66616dfa12aa5a6a',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  shopName: 'Digital Mongers'[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.457Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f16db4c121c0b99',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T12:30:00.225Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: 'addef29798830775',[39m
+[32m  event: 'RECALCULATING_TODAY_ANALYTICS',[39m
+[32m  shopCount: 3[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.501Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd615850eeb538afa',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T12:30:00.225Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-25T12:30:00.225Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '2e21757c164689c9',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:30:00.392Z',[39m
+[32m  endTime: '2025-11-25T12:30:00.585Z',[39m
+[32m  duration: '193ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 1,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f16db4c121c0b99',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9f16db4c121c0b99',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 1,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd615850eeb538afa',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd615850eeb538afa',[39m
+[34m  shopId: '691c65a4d6ce283123df682c',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 18:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9f16db4c121c0b99',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a6a3612aea6c86199d'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  shopName: 'Digital Mongers'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '66616dfa12aa5a6a',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  shopName: 'Developer Store'[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.457Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8c1bdb602de1808c',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd615850eeb538afa',[39m
+[32m  shopId: '691c65a4d6ce283123df682c',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a6a3612aea6c86199d'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[34m  requestId: 'addef29798830775',[39m
+[34m  event: 'SHOP_RECALCULATED',[39m
+[34m  shopId: '691c65a4d6ce283123df682c'[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.501Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'b9dfce53e6f4d542',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 889.6999999999998,[39m
+[32m  totalOrders: 1,[39m
+[32m  uniqueCustomers: 1,[39m
+[32m  uniqueProducts: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 889.6999999999998,[39m
+[32m  totalOrders: 1,[39m
+[32m  uniqueCustomers: 1,[39m
+[32m  uniqueProducts: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8c1bdb602de1808c',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 1[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'b9dfce53e6f4d542',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 1[39m
+[34m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8c1bdb602de1808c',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'TOP_PRODUCT_ADDED',[39m
+[34m  productName: "Speed X Fashion Women's Handbag",[39m
+[34m  revenue: 889.6999999999998[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '8c1bdb602de1808c',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'b9dfce53e6f4d542',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'TOP_PRODUCT_ADDED',[39m
+[34m  productName: "Speed X Fashion Women's Handbag",[39m
+[34m  revenue: 889.6999999999998[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'b9dfce53e6f4d542',[39m
+[34m  shopId: '69242fdb55785494e4afe857',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: -1.11,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 899.6999999999998,[39m
+[32m  previousOrders: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: -1.11,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 899.6999999999998,[39m
+[32m  previousOrders: 1[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '8c1bdb602de1808c',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a7a3612aea6c8619a0'),[39m
+[32m  totalSales: 889.7,[39m
+[32m  totalOrders: 1,[39m
+[32m  conversionRate: 100[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  shopName: 'Developer Store'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '66616dfa12aa5a6a',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  shopName: 'All in one Store'[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.457Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '241d811a170cbb9d',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'b9dfce53e6f4d542',[39m
+[32m  shopId: '69242fdb55785494e4afe857',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692530a7a3612aea6c8619a0'),[39m
+[32m  totalSales: 889.7,[39m
+[32m  totalOrders: 1,[39m
+[32m  conversionRate: 100[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[34m  requestId: 'addef29798830775',[39m
+[34m  event: 'SHOP_RECALCULATED',[39m
+[34m  shopId: '69242fdb55785494e4afe857'[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-24T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-25T12:30:00.501Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-25 18:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '3e54d50e6499ace1',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-24T18:30:00.000Z,[39m
+[34m  end: 2025-11-25T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 18:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '241d811a170cbb9d',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '241d811a170cbb9d',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '3e54d50e6499ace1',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '3e54d50e6499ace1',[39m
+[34m  shopId: '69257566ac24ef3754c013af',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-23T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-24T18:29:59.999Z[39m
+[34m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '241d811a170cbb9d',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('6925a126a3612aea6c8623f7'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  shopName: 'All in one Store'[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '66616dfa12aa5a6a',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 3,[39m
+[32m  successCount: 3,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '3e54d50e6499ace1',[39m
+[32m  shopId: '69257566ac24ef3754c013af',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('6925a126a3612aea6c8623f7'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-25 18:00:02 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[34m  requestId: 'addef29798830775',[39m
+[34m  event: 'SHOP_RECALCULATED',[39m
+[34m  shopId: '69257566ac24ef3754c013af'[39m
+[34m}[39m
+2025-11-25 18:00:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: 'addef29798830775',[39m
+[32m  event: 'PERIODIC_RECALCULATION_COMPLETE',[39m
+[32m  successCount: 3,[39m
+[32m  failCount: 0[39m
+[32m}[39m
+2025-11-25 18:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:35:00.174Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 18:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5c2cc74132ed8cb4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 18:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5c2cc74132ed8cb4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 18:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:35:00.174Z',[39m
+[32m  endTime: '2025-11-25T12:35:00.422Z',[39m
+[32m  duration: '248ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 18:09:57 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-25 18:10:12 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-25 18:10:12 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-25 18:10:12 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-25 18:10:14 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-25 18:10:17 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 18:10:17 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 18:10:18 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-25 18:10:18 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-25 18:10:18 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-25 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-25T12:45:00.059Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-25 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8735ada3b33f9704',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-25 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8735ada3b33f9704',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-25 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-25T12:45:00.059Z',[39m
+[32m  endTime: '2025-11-25T12:45:00.312Z',[39m
+[32m  duration: '253ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-25 18:16:31 [[32minfo[39m] : [32mClosing Redis connection...[39m

@@ -1,0 +1,486 @@
+2025-12-06 00:31:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'CART_RECALC_ERROR',[39m
+[31m  error: "Cannot read properties of null (reading '_id')",[39m
+[31m  stack: "TypeError: Cannot read properties of null (reading '_id')\n" +[39m
+[31m    '    at C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\cartService.js:620:60\n' +[39m
+[31m    '    at Array.map (<anonymous>)\n' +[39m
+[31m    '    at methods.<computed> (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\mongoose\\lib\\types\\array\\methods\\index.js:1061:24)\n' +[39m
+[31m    '    at CartService._recalculateCart (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\cartService.js:620:35)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async CartService.getCart (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\cartService.js:180:5)\n' +[39m
+[31m    '    at async exports.getCart (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\cartController.js:25:18)',[39m
+[31m  customerId: '6917018e8fd8f7f0dfbffc3d',[39m
+[31m  duration: '3ms'[39m
+[31m}[39m
+2025-12-06 00:31:08 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:31:10 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:31:12 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:32:51 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:32:56 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:34:12 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:34:30 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:35:35 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:36:00 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:36:05 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:36:27 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:36:45 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:36:47 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:38:02 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:38:12 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 00:38:19 [[31merror[39m] : [31m Session ID or login required[39m
+2025-12-06 01:32:01 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:32:03 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:34:10 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:36:31 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:36:33 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:36:36 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:39:50 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:39:52 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:41:17 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:41:19 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:42:09 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:42:11 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:44:26 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:44:27 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:45:58 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:46:42 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:46:43 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:47:48 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:47:56 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:48:56 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 01:49:10 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 03:04:52 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 03:05:03 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 03:05:05 [[31merror[39m] : [31mError deleting AbandonedCart entry: Cast to ObjectId failed for value "remove-coupon" (type string) at path "product" for model "AbandonedCart"[39m
+2025-12-06 03:31:14 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '051794de-4151-47c2-b85d-94bb8f98bf54',[39m
+[31m  event: 'ORDER_CREATE_VALIDATION_FAILED',[39m
+[31m  error: 'Payment method required',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:31:14 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '051794de-4151-47c2-b85d-94bb8f98bf54',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Payment method required',[39m
+[31m  stack: 'Error: Payment method required\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:64:15)\n' +[39m
+[31m    '    at exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:38)\n' +[39m
+[31m    '    at Layer.handleRequest (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n' +[39m
+[31m    '    at next (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\route.js:157:13)\n' +[39m
+[31m    '    at C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\middleware\\cacheMiddleware.js:114:5\n' +[39m
+[31m    '    at Layer.handleRequest (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n' +[39m
+[31m    '    at next (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\route.js:157:13)\n' +[39m
+[31m    '    at C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\middleware\\authMiddleware.js:38:7\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:31:14 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '051794de-4151-47c2-b85d-94bb8f98bf54',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Payment method required',[39m
+[31m  stack: 'Error: Payment method required\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:64:15)\n' +[39m
+[31m    '    at exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:38)\n' +[39m
+[31m    '    at Layer.handleRequest (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n' +[39m
+[31m    '    at next (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\route.js:157:13)\n' +[39m
+[31m    '    at C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\middleware\\cacheMiddleware.js:114:5\n' +[39m
+[31m    '    at Layer.handleRequest (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n' +[39m
+[31m    '    at next (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\router\\lib\\route.js:157:13)\n' +[39m
+[31m    '    at C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\middleware\\authMiddleware.js:38:7\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:34:29 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '97d9553e-8261-49a8-9dbf-34f8e295d34e',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Coupon not applicable to items in cart',[39m
+[31m  stack: 'Error: Coupon not applicable to items in cart\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:312:19)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:19)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:34:29 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '97d9553e-8261-49a8-9dbf-34f8e295d34e',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Coupon not applicable to items in cart',[39m
+[31m  stack: 'Error: Coupon not applicable to items in cart\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:312:19)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:19)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:38:14 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '47203b45-eca6-4d01-b9c7-9584d5b82e18',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Coupon not applicable to items in cart',[39m
+[31m  stack: 'Error: Coupon not applicable to items in cart\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:312:19)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '69335450805cd33d30a4ca4d',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:38:14 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '47203b45-eca6-4d01-b9c7-9584d5b82e18',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Coupon not applicable to items in cart',[39m
+[31m  stack: 'Error: Coupon not applicable to items in cart\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:312:19)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:38:48 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'bf202cac-3694-4b9c-9268-71b0a702d9ff',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:38:48 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'bf202cac-3694-4b9c-9268-71b0a702d9ff',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:38:48 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: 'bf202cac-3694-4b9c-9268-71b0a702d9ff',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:38:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'fb790ae6-5b3e-41b1-b127-490722b87c47',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:38:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'fb790ae6-5b3e-41b1-b127-490722b87c47',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:38:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: 'fb790ae6-5b3e-41b1-b127-490722b87c47',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:39:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '6f1b3ace-27f9-4a7e-a7ef-9003e561d606',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:39:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '6f1b3ace-27f9-4a7e-a7ef-9003e561d606',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:39:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '6f1b3ace-27f9-4a7e-a7ef-9003e561d606',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:40:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '4fbc6e24-a7fe-4bf6-bb6c-377ef447e9fa',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:40:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '4fbc6e24-a7fe-4bf6-bb6c-377ef447e9fa',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:40:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '4fbc6e24-a7fe-4bf6-bb6c-377ef447e9fa',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:40:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '31016146-0f7f-4434-9483-de25e6dcfcaa',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:40:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '31016146-0f7f-4434-9483-de25e6dcfcaa',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:40:03 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '31016146-0f7f-4434-9483-de25e6dcfcaa',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:40:18 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '8cc90b2a-1eca-4764-8f6b-ef6a1f6bcab1',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:40:18 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '8cc90b2a-1eca-4764-8f6b-ef6a1f6bcab1',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:40:18 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '8cc90b2a-1eca-4764-8f6b-ef6a1f6bcab1',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:40:46 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '701824bc-ccfa-49a1-a12d-e734d7047ac1',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:40:46 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '701824bc-ccfa-49a1-a12d-e734d7047ac1',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:40:46 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '701824bc-ccfa-49a1-a12d-e734d7047ac1',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:40:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '8d3dca4f-428d-426b-a0b8-cd63b61777d7',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:40:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '8d3dca4f-428d-426b-a0b8-cd63b61777d7',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:40:53 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '8d3dca4f-428d-426b-a0b8-cd63b61777d7',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:41:40 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '019554b8-ecb6-4ee8-8508-9e0171c92f92',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:41:40 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: '019554b8-ecb6-4ee8-8508-9e0171c92f92',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:41:40 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: '019554b8-ecb6-4ee8-8508-9e0171c92f92',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 03:42:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'b29d31df-934e-4067-a806-8c0c5c9f44f9',[39m
+[31m  event: 'CART_EMPTY',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  cartId: new ObjectId('69332b5010c9a6997931daec')[39m
+[31m}[39m
+2025-12-06 03:42:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'OrderService.createOrder',[39m
+[31m  requestId: 'b29d31df-934e-4067-a806-8c0c5c9f44f9',[39m
+[31m  event: 'ORDER_CREATE_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  customerId: '69330ee0defb2b08bf88c035',[39m
+[31m  addressId: '693352bf3ecf17eaba197440',[39m
+[31m  paymentGateway: undefined[39m
+[31m}[39m
+2025-12-06 03:42:01 [[31merror[39m] : [31m{[39m
+[31m  route: 'orderController.createOrder',[39m
+[31m  requestId: 'b29d31df-934e-4067-a806-8c0c5c9f44f9',[39m
+[31m  event: 'CREATE_ORDER_ERROR',[39m
+[31m  error: 'Cart is empty',[39m
+[31m  stack: 'Error: Cart is empty\n' +[39m
+[31m    '    at OrderService.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\services\\orderService.js:224:15)\n' +[39m
+[31m    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +[39m
+[31m    '    at async exports.createOrder (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\controllers\\orderController.js:78:20)',[39m
+[31m  userId: '69330ee0defb2b08bf88c035'[39m
+[31m}[39m
+2025-12-06 04:11:29 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 04:11:30 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 04:11:31 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 04:12:09 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 04:12:40 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 04:12:41 [[31merror[39m] : [31mCart not found[39m
+2025-12-06 05:06:26 [[31merror[39m] : ValidationError: RefundMethod validation failed: customer: Path `customer` is required.
+    at Document.invalidate (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\schemaType.js:1416:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-06 05:07:13 [[31merror[39m] : ValidationError: RefundMethod validation failed: customer: Path `customer` is required.
+    at Document.invalidate (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\schemaType.js:1416:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-06 05:07:14 [[31merror[39m] : ValidationError: RefundMethod validation failed: customer: Path `customer` is required.
+    at Document.invalidate (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\schemaType.js:1416:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-06 05:07:29 [[31merror[39m] : ValidationError: RefundMethod validation failed: customer: Path `customer` is required.
+    at Document.invalidate (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\schemaType.js:1416:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-06 05:07:33 [[31merror[39m] : ValidationError: RefundMethod validation failed: customer: Path `customer` is required.
+    at Document.invalidate (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\node_modules\mongoose\lib\schemaType.js:1416:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

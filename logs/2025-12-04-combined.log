@@ -1,0 +1,2059 @@
+2025-12-04 13:28:04 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:28:04 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:28:04 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:28:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:05 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:06 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-12-04 13:28:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:07 [[34mdebug[39m] : [34mRedis retry attempt 8, waiting 400ms[39m
+2025-12-04 13:28:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 400 }[39m
+2025-12-04 13:28:07 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:28:07 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:28:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:07 [[34mdebug[39m] : [34mRedis retry attempt 9, waiting 450ms[39m
+2025-12-04 13:28:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 450 }[39m
+2025-12-04 13:28:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:08 [[34mdebug[39m] : [34mRedis retry attempt 10, waiting 500ms[39m
+2025-12-04 13:28:08 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:08 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 500 }[39m
+2025-12-04 13:28:08 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:28:08 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:28:08 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-04 13:28:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:08 [[34mdebug[39m] : [34mRedis retry attempt 11, waiting 550ms[39m
+2025-12-04 13:28:08 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:08 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 550 }[39m
+2025-12-04 13:28:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:09 [[34mdebug[39m] : [34mRedis retry attempt 12, waiting 600ms[39m
+2025-12-04 13:28:09 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:09 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 600 }[39m
+2025-12-04 13:28:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:09 [[34mdebug[39m] : [34mRedis retry attempt 13, waiting 650ms[39m
+2025-12-04 13:28:09 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:09 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 650 }[39m
+2025-12-04 13:28:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:10 [[34mdebug[39m] : [34mRedis retry attempt 14, waiting 700ms[39m
+2025-12-04 13:28:10 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:10 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 700 }[39m
+2025-12-04 13:28:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:11 [[34mdebug[39m] : [34mRedis retry attempt 15, waiting 750ms[39m
+2025-12-04 13:28:11 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:11 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 750 }[39m
+2025-12-04 13:28:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:11 [[34mdebug[39m] : [34mRedis retry attempt 16, waiting 800ms[39m
+2025-12-04 13:28:11 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:11 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 800 }[39m
+2025-12-04 13:28:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:12 [[34mdebug[39m] : [34mRedis retry attempt 17, waiting 850ms[39m
+2025-12-04 13:28:12 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:12 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 850 }[39m
+2025-12-04 13:28:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:13 [[34mdebug[39m] : [34mRedis retry attempt 18, waiting 900ms[39m
+2025-12-04 13:28:13 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:13 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 900 }[39m
+2025-12-04 13:28:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:14 [[34mdebug[39m] : [34mRedis retry attempt 19, waiting 950ms[39m
+2025-12-04 13:28:14 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:14 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 950 }[39m
+2025-12-04 13:28:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:15 [[34mdebug[39m] : [34mRedis retry attempt 20, waiting 1000ms[39m
+2025-12-04 13:28:15 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:15 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1000 }[39m
+2025-12-04 13:28:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:16 [[34mdebug[39m] : [34mRedis retry attempt 21, waiting 1050ms[39m
+2025-12-04 13:28:16 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:16 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1050 }[39m
+2025-12-04 13:28:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:17 [[34mdebug[39m] : [34mRedis retry attempt 22, waiting 1100ms[39m
+2025-12-04 13:28:17 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:17 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1100 }[39m
+2025-12-04 13:28:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:18 [[34mdebug[39m] : [34mRedis retry attempt 23, waiting 1150ms[39m
+2025-12-04 13:28:18 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:18 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1150 }[39m
+2025-12-04 13:28:19 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:19 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:19 [[34mdebug[39m] : [34mRedis retry attempt 24, waiting 1200ms[39m
+2025-12-04 13:28:19 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:19 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1200 }[39m
+2025-12-04 13:28:20 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:28:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:32 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-12-04 13:28:33 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:28:33 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:28:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)'[39m
+[31m}[39m
+2025-12-04 13:28:33 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-12-04 13:28:33 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:28:33 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-12-04 13:28:33 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-04 13:48:04 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:48:04 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:48:04 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:48:05 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:48:06 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:07 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-12-04 13:48:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:07 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-12-04 13:48:07 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:07 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:48:07 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:48:07 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-04 13:48:07 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-12-04 13:48:08 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:08 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-12-04 13:48:08 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:48:08 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-12-04 13:48:08 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:48:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'NOAUTH Authentication required',[39m
+[31m  stack: 'ReplyError: NOAUTH Authentication required\n' +[39m
+[31m    '    at parseError (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n' +[39m
+[31m    '    at parseType (C:\\Users\\Khushnoor\\Desktop\\Dobby App Development\\Backend\\node_modules\\redis-parser\\lib\\parser.js:302:14)'[39m
+[31m}[39m
+2025-12-04 13:48:08 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-04 13:49:29 [[32minfo[39m] : [32mRedis Cloud TLS connection enabled[39m
+2025-12-04 13:49:30 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:49:30 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:49:30 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:49:31 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:49:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:31 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-12-04 13:49:31 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:31 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-12-04 13:49:32 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:49:32 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:32 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-12-04 13:49:33 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:49:33 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:49:33 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:33 [[34mdebug[39m] : [34mRedis retry attempt 8, waiting 400ms[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:33 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 400 }[39m
+2025-12-04 13:49:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:34 [[34mdebug[39m] : [34mRedis retry attempt 9, waiting 450ms[39m
+2025-12-04 13:49:34 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:34 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 450 }[39m
+2025-12-04 13:49:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:35 [[34mdebug[39m] : [34mRedis retry attempt 10, waiting 500ms[39m
+2025-12-04 13:49:35 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:35 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 500 }[39m
+2025-12-04 13:49:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:35 [[34mdebug[39m] : [34mRedis retry attempt 11, waiting 550ms[39m
+2025-12-04 13:49:35 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:35 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 550 }[39m
+2025-12-04 13:49:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:36 [[34mdebug[39m] : [34mRedis retry attempt 12, waiting 600ms[39m
+2025-12-04 13:49:36 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:36 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 600 }[39m
+2025-12-04 13:49:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:37 [[34mdebug[39m] : [34mRedis retry attempt 13, waiting 650ms[39m
+2025-12-04 13:49:37 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:37 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 650 }[39m
+2025-12-04 13:49:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:37 [[34mdebug[39m] : [34mRedis retry attempt 14, waiting 700ms[39m
+2025-12-04 13:49:37 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:37 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 700 }[39m
+2025-12-04 13:49:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:38 [[34mdebug[39m] : [34mRedis retry attempt 15, waiting 750ms[39m
+2025-12-04 13:49:38 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:38 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 750 }[39m
+2025-12-04 13:49:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:39 [[34mdebug[39m] : [34mRedis retry attempt 16, waiting 800ms[39m
+2025-12-04 13:49:39 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:39 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 800 }[39m
+2025-12-04 13:49:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:40 [[34mdebug[39m] : [34mRedis retry attempt 17, waiting 850ms[39m
+2025-12-04 13:49:40 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:40 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 850 }[39m
+2025-12-04 13:49:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:41 [[34mdebug[39m] : [34mRedis retry attempt 18, waiting 900ms[39m
+2025-12-04 13:49:41 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:41 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 900 }[39m
+2025-12-04 13:49:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:42 [[34mdebug[39m] : [34mRedis retry attempt 19, waiting 950ms[39m
+2025-12-04 13:49:42 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:42 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 950 }[39m
+2025-12-04 13:49:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:43 [[34mdebug[39m] : [34mRedis retry attempt 20, waiting 1000ms[39m
+2025-12-04 13:49:43 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:43 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1000 }[39m
+2025-12-04 13:49:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:44 [[34mdebug[39m] : [34mRedis retry attempt 21, waiting 1050ms[39m
+2025-12-04 13:49:44 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:44 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1050 }[39m
+2025-12-04 13:49:45 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:45 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:45 [[34mdebug[39m] : [34mRedis retry attempt 22, waiting 1100ms[39m
+2025-12-04 13:49:45 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:45 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1100 }[39m
+2025-12-04 13:49:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:46 [[34mdebug[39m] : [34mRedis retry attempt 23, waiting 1150ms[39m
+2025-12-04 13:49:46 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:46 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1150 }[39m
+2025-12-04 13:49:48 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:48 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:48 [[34mdebug[39m] : [34mRedis retry attempt 24, waiting 1200ms[39m
+2025-12-04 13:49:48 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:48 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1200 }[39m
+2025-12-04 13:49:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:49 [[34mdebug[39m] : [34mRedis retry attempt 25, waiting 1250ms[39m
+2025-12-04 13:49:49 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:49 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1250 }[39m
+2025-12-04 13:49:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:50 [[34mdebug[39m] : [34mRedis retry attempt 26, waiting 1300ms[39m
+2025-12-04 13:49:50 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:50 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1300 }[39m
+2025-12-04 13:49:52 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:52 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: E8160000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:49:52 [[34mdebug[39m] : [34mRedis retry attempt 27, waiting 1350ms[39m
+2025-12-04 13:49:52 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:49:52 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1350 }[39m
+2025-12-04 13:49:52 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-04 13:50:02 [[32minfo[39m] : [32mRedis Cloud TLS connection enabled[39m
+2025-12-04 13:50:03 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:50:03 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:50:03 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:50:04 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:04 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:04 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-12-04 13:50:05 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:50:05 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:05 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:05 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-12-04 13:50:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:06 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-12-04 13:50:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-12-04 13:50:06 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:50:06 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:50:06 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-04 13:50:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:06 [[34mdebug[39m] : [34mRedis retry attempt 8, waiting 400ms[39m
+2025-12-04 13:50:06 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:06 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 400 }[39m
+2025-12-04 13:50:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:07 [[34mdebug[39m] : [34mRedis retry attempt 9, waiting 450ms[39m
+2025-12-04 13:50:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 450 }[39m
+2025-12-04 13:50:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:07 [[34mdebug[39m] : [34mRedis retry attempt 10, waiting 500ms[39m
+2025-12-04 13:50:07 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:07 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 500 }[39m
+2025-12-04 13:50:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:08 [[34mdebug[39m] : [34mRedis retry attempt 11, waiting 550ms[39m
+2025-12-04 13:50:08 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:08 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 550 }[39m
+2025-12-04 13:50:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:09 [[34mdebug[39m] : [34mRedis retry attempt 12, waiting 600ms[39m
+2025-12-04 13:50:09 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:09 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 600 }[39m
+2025-12-04 13:50:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:09 [[34mdebug[39m] : [34mRedis retry attempt 13, waiting 650ms[39m
+2025-12-04 13:50:09 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:09 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 650 }[39m
+2025-12-04 13:50:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:10 [[34mdebug[39m] : [34mRedis retry attempt 14, waiting 700ms[39m
+2025-12-04 13:50:10 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:10 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 700 }[39m
+2025-12-04 13:50:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:11 [[34mdebug[39m] : [34mRedis retry attempt 15, waiting 750ms[39m
+2025-12-04 13:50:11 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:11 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 750 }[39m
+2025-12-04 13:50:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:12 [[34mdebug[39m] : [34mRedis retry attempt 16, waiting 800ms[39m
+2025-12-04 13:50:12 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:12 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 800 }[39m
+2025-12-04 13:50:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:13 [[34mdebug[39m] : [34mRedis retry attempt 17, waiting 850ms[39m
+2025-12-04 13:50:13 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:13 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 850 }[39m
+2025-12-04 13:50:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:14 [[34mdebug[39m] : [34mRedis retry attempt 18, waiting 900ms[39m
+2025-12-04 13:50:14 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:14 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 900 }[39m
+2025-12-04 13:50:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:15 [[34mdebug[39m] : [34mRedis retry attempt 19, waiting 950ms[39m
+2025-12-04 13:50:15 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:15 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 950 }[39m
+2025-12-04 13:50:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:16 [[34mdebug[39m] : [34mRedis retry attempt 20, waiting 1000ms[39m
+2025-12-04 13:50:16 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:16 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1000 }[39m
+2025-12-04 13:50:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:17 [[34mdebug[39m] : [34mRedis retry attempt 21, waiting 1050ms[39m
+2025-12-04 13:50:17 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:17 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1050 }[39m
+2025-12-04 13:50:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: '70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n',[39m
+[31m  stack: 'Error: 70380000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\ssl3_record.c:355:\n'[39m
+[31m}[39m
+2025-12-04 13:50:18 [[34mdebug[39m] : [34mRedis retry attempt 22, waiting 1100ms[39m
+2025-12-04 13:50:18 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-12-04 13:50:18 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1100 }[39m
+2025-12-04 13:50:18 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-04 13:50:44 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-04 13:50:44 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-04 13:50:44 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-04 13:50:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis://default:***@redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-04 13:50:46 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-12-04 13:50:46 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:50:46 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:50:47 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-04 13:50:47 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-04 13:50:47 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-04 13:51:07 [[32minfo[39m] : [32mHTTP GET /[39m
+2025-12-04 13:51:08 [[32minfo[39m] : [32mHTTP GET /favicon.ico[39m
+2025-12-04 13:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:25:00.026Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 13:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a10651f9f23f89f5',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 13:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a10651f9f23f89f5',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 13:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:25:00.026Z',[39m
+[32m  endTime: '2025-12-04T08:25:00.194Z',[39m
+[32m  duration: '168ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-12-04T08:30:00.031Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-12-04T08:30:00.040Z'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:30:00.042Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '420c2eb959540168',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 4[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'd3563109d79ad866',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  shopName: 'Paras Store'[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-12-03T18:30:00.000Z,[39m
+[32m  endDate: 2025-12-04T08:30:00.085Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-12-03T18:30:00.000Z,[39m
+[34m  end: 2025-12-04T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-12-04T08:30:00.031Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '420c2eb959540168',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:30:00.042Z',[39m
+[32m  endTime: '2025-12-04T08:30:00.129Z',[39m
+[32m  duration: '87ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-12-04T08:30:00.031Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-12-04T08:30:00.031Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-12-02T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-12-03T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cd69dcbf5b4b6ff7',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('69310e1ba3612aea6c865098'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  shopName: 'Paras Store'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'd3563109d79ad866',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  shopName: 'all-in-one'[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-12-03T18:30:00.000Z,[39m
+[32m  endDate: 2025-12-04T08:30:00.085Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd34f0ac5d3162049',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-12-03T18:30:00.000Z,[39m
+[34m  end: 2025-12-04T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd34f0ac5d3162049',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'd34f0ac5d3162049',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-12-02T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-12-03T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'd34f0ac5d3162049',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('69310e1ba3612aea6c865099'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  shopName: 'all-in-one'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'd3563109d79ad866',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  shopName: 'Avatar Store'[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-12-03T18:30:00.000Z,[39m
+[32m  endDate: 2025-12-04T08:30:00.085Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '08d3d1d868cbc394',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-12-03T18:30:00.000Z,[39m
+[34m  end: 2025-12-04T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '08d3d1d868cbc394',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '08d3d1d868cbc394',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-12-02T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-12-03T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '08d3d1d868cbc394',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('69310e1ba3612aea6c86509a'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  shopName: 'Avatar Store'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'd3563109d79ad866',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692ad0bdce0e334c45932e13',[39m
+[34m  shopName: 'Dev Store'[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-12-03T18:30:00.000Z,[39m
+[32m  endDate: 2025-12-04T08:30:00.085Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-12-04 14:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'bb0ab02eafd521fd',[39m
+[34m  shopId: '692ad0bdce0e334c45932e13',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-12-03T18:30:00.000Z,[39m
+[34m  end: 2025-12-04T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-12-04 14:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-12-04 14:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'bb0ab02eafd521fd',[39m
+[34m  shopId: '692ad0bdce0e334c45932e13',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-12-04 14:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'bb0ab02eafd521fd',[39m
+[34m  shopId: '692ad0bdce0e334c45932e13',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-12-02T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-12-03T18:29:59.999Z[39m
+[34m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'bb0ab02eafd521fd',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('69310e1ca3612aea6c86509b'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692ad0bdce0e334c45932e13',[39m
+[32m  shopName: 'Dev Store'[39m
+[32m}[39m
+2025-12-04 14:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'd3563109d79ad866',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 4,[39m
+[32m  successCount: 4,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-12-04 14:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:35:00.031Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'e564d9431c10de61',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'e564d9431c10de61',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:35:00.031Z',[39m
+[32m  endTime: '2025-12-04T08:35:00.142Z',[39m
+[32m  duration: '111ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:40:00.049Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '996b746188698e3c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '996b746188698e3c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:40:00.049Z',[39m
+[32m  endTime: '2025-12-04T08:40:00.190Z',[39m
+[32m  duration: '141ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:45:00.029Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4b2b6555e0703183',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4b2b6555e0703183',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:45:00.029Z',[39m
+[32m  endTime: '2025-12-04T08:45:00.141Z',[39m
+[32m  duration: '112ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:50:00.020Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '85f43d9477344691',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '85f43d9477344691',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:50:00.020Z',[39m
+[32m  endTime: '2025-12-04T08:50:00.113Z',[39m
+[32m  duration: '93ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-12-04 14:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-12-04T08:55:00.024Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-12-04 14:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '68bf17387c76e9ae',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-12-04 14:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '68bf17387c76e9ae',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-12-04 14:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-12-04T08:55:00.024Z',[39m
+[32m  endTime: '2025-12-04T08:55:00.137Z',[39m
+[32m  duration: '113ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m

@@ -1,0 +1,783 @@
+2025-11-19 13:21:47 [[31merror[39m] : [31mError processing customer 691c695b6b0920cfdcb04686: E11000 duplicate key error collection: test.customergroups index: groupName_1 dup key: { groupName: null }[39m
+2025-11-19 13:21:48 [[31merror[39m] : [31mError processing customer 691d5786c6f6d3e96f229afa: E11000 duplicate key error collection: test.customergroups index: groupName_1 dup key: { groupName: null }[39m
+2025-11-19 13:21:48 [[31merror[39m] : [31mError processing customer 691d710fc6f6d3e96f22ba25: E11000 duplicate key error collection: test.customergroups index: groupName_1 dup key: { groupName: null }[39m
+2025-11-19 18:08:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:45 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:45 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:48 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:48 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:51 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:51 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:53 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:53 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:54 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:54 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:55 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:55 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:56 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:56 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:57 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:08:57 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:06 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:07 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:08 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:09 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:10 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:11 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:12 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:13 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:14 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:15 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:16 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:17 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:18 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:19 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:19 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:20 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:20 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:21 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:21 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:23 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:23 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:24 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:24 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:25 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:25 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:30 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:30 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:40 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-19 18:09:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m

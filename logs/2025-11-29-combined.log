@@ -1,0 +1,3492 @@
+2025-11-29 10:01:38 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 10:01:38 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 10:01:38 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:01:40 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:01:42 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:01:42 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:01:43 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:01:43 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:01:43 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 10:02:52 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:03:08 [[32minfo[39m] : [32mStarting Bulk Upload Worker...[39m
+2025-11-29 10:03:10 [[31merror[39m] : Error: BullMQ: Your redis options maxRetriesPerRequest must be null.
+    at RedisConnection.checkBlockingOptions (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\redis-connection.js:72:23)
+    at new RedisConnection (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\redis-connection.js:52:18)
+    at new Worker (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\worker.js:125:35)
+    at Object.<anonymous> (C:\test-dobby-backend\workers\bulkUploadWorker.js:16:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-11-29 10:03:10 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:03:10 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:03:11 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 10:14:53 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:14:58 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 10:14:58 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 10:14:58 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 10:14:59 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 10:15:00 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T04:45:00.302Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8abda9ed28af61f9',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:15:00 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:15:01 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:15:01 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:15:02 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8abda9ed28af61f9',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:15:02 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T04:45:00.302Z',[39m
+[32m  endTime: '2025-11-29T04:45:02.849Z',[39m
+[32m  duration: '2547ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:15:02 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:15:02 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:15:02 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 10:15:06 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:15:09 [[32minfo[39m] : [32mStarting Bulk Upload Worker...[39m
+2025-11-29 10:15:10 [[31merror[39m] : Error: BullMQ: Your redis options maxRetriesPerRequest must be null.
+    at RedisConnection.checkBlockingOptions (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\redis-connection.js:72:23)
+    at new RedisConnection (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\redis-connection.js:52:18)
+    at new Worker (C:\test-dobby-backend\node_modules\bullmq\dist\cjs\classes\worker.js:125:35)
+    at Object.<anonymous> (C:\test-dobby-backend\workers\bulkUploadWorker.js:16:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-11-29 10:15:10 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:15:10 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:15:11 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 10:21:54 [[32minfo[39m] : [32mBulk Upload Worker started successfully[39m
+2025-11-29 10:21:54 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:21:55 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:21:55 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 10:22:13 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:22:13 [[32minfo[39m] : [32mSIGINT received, closing worker...[39m
+2025-11-29 10:23:54 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:24:00 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 10:24:00 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 10:24:00 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:24:01 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:24:02 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:24:02 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:24:03 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:24:03 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:24:03 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 10:24:04 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:24:06 [[32minfo[39m] : [32mStarting Bulk Upload Worker...[39m
+2025-11-29 10:24:08 [[32minfo[39m] : [32mBulk Upload Worker started successfully[39m
+2025-11-29 10:24:08 [[32minfo[39m] : [32mBulk Upload Worker is running. Press Ctrl+C to stop.[39m
+2025-11-29 10:24:08 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:24:08 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:24:08 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 10:24:27 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:24:27 [[32minfo[39m] : [32mSIGINT received, closing worker...[39m
+2025-11-29 10:24:37 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 10:24:37 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 10:24:37 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:24:38 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:24:41 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:24:41 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:24:43 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:24:43 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:24:43 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T04:55:00.074Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '790268159ec999f3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '790268159ec999f3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T04:55:00.074Z',[39m
+[32m  endTime: '2025-11-29T04:55:00.266Z',[39m
+[32m  duration: '192ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:00:00.113Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '2703bde5e43b141c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '2703bde5e43b141c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:00:00.113Z',[39m
+[32m  endTime: '2025-11-29T05:00:00.395Z',[39m
+[32m  duration: '282ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:32:10 [[32minfo[39m] : [32mBulk Upload Worker started successfully[39m
+2025-11-29 10:32:10 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:32:10 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:32:12 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 10:32:24 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 10:32:34 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 10:32:34 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 10:32:34 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 10:32:35 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 10:32:38 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:32:38 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:32:39 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 10:32:39 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 10:32:39 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 10:34:10 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:05:00.026Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ab40871df74054fe',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ab40871df74054fe',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:05:00.026Z',[39m
+[32m  endTime: '2025-11-29T05:05:00.197Z',[39m
+[32m  duration: '171ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:35:27 [[32minfo[39m] : [32mHTTP POST /api/auth/shopkeeper-login[39m
+2025-11-29 10:35:35 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:36:45 [[32minfo[39m] : [32mHTTP POST /api/auth/verify-login[39m
+2025-11-29 10:37:10 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:39:10 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:10:00.106Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'de9777abb6f32bb3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'de9777abb6f32bb3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:10:00.106Z',[39m
+[32m  endTime: '2025-11-29T05:10:00.276Z',[39m
+[32m  duration: '170ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:40:30 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:42:36 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:44:21 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:15:00.169Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7dcb981d0fa3a201',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '7dcb981d0fa3a201',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:15:00.169Z',[39m
+[32m  endTime: '2025-11-29T05:15:00.325Z',[39m
+[32m  duration: '156ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:46:09 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.downloadTemplate',[39m
+[32m  event: 'TEMPLATE_DOWNLOAD_REQUEST',[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84'),[39m
+[32m  userId: '69297b89f2e03e0d3867791f'[39m
+[32m}[39m
+2025-11-29 10:46:09 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.downloadTemplate',[39m
+[32m  event: 'TEMPLATE_GENERATED',[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84'),[39m
+[32m  fileName: 'product-upload-template-1764393369325.xlsx'[39m
+[32m}[39m
+2025-11-29 10:46:09 [[32minfo[39m] : [32mHTTP GET /api/bulkProduct/template[39m
+2025-11-29 10:47:56 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:49:26 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:20:00.082Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'b2885bec3c45e35c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'b2885bec3c45e35c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:20:00.082Z',[39m
+[32m  endTime: '2025-11-29T05:20:00.335Z',[39m
+[32m  duration: '253ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:51:27 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:53:02 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:25:00.106Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '441e5937d5505d47',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '441e5937d5505d47',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 10:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:25:00.106Z',[39m
+[32m  endTime: '2025-11-29T05:25:00.231Z',[39m
+[32m  duration: '125ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 10:55:02 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:56:32 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 10:58:37 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T05:30:00.095Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a8a59773c3eb1134',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-29T05:30:00.139Z'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:30:00.143Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8b07613be4c6f1bc',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a8a59773c3eb1134',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 2[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'a8a59773c3eb1134',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  shopName: 'Paras Store'[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T05:30:00.217Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'e6752b2fef867a69',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T05:30:00.095Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8b07613be4c6f1bc',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:30:00.143Z',[39m
+[32m  endTime: '2025-11-29T05:30:00.298Z',[39m
+[32m  duration: '155ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T05:30:00.095Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T05:30:00.095Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'e6752b2fef867a69',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'e6752b2fef867a69',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'e6752b2fef867a69',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f25'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a8a59773c3eb1134',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  shopName: 'Paras Store'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'a8a59773c3eb1134',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  shopName: 'all-in-one'[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T05:30:00.217Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9cee59782ca27f0a',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9cee59782ca27f0a',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '9cee59782ca27f0a',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '9cee59782ca27f0a',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f26'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a8a59773c3eb1134',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  shopName: 'all-in-one'[39m
+[32m}[39m
+2025-11-29 11:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a8a59773c3eb1134',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 2,[39m
+[32m  successCount: 2,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-29 11:00:32 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:35:00.081Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '85c505880bda91f4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '85c505880bda91f4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:35:00.081Z',[39m
+[32m  endTime: '2025-11-29T05:35:00.195Z',[39m
+[32m  duration: '114ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:06:03 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:07:43 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:09:34 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:40:00.066Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'c61aef24a61c9f59',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'c61aef24a61c9f59',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:40:00.066Z',[39m
+[32m  endTime: '2025-11-29T05:40:00.411Z',[39m
+[32m  duration: '345ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:11:49 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:13:44 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:45:00.119Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '728de1a1f0db1974',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '728de1a1f0db1974',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:45:00.119Z',[39m
+[32m  endTime: '2025-11-29T05:45:00.239Z',[39m
+[32m  duration: '120ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:15:29 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 11:15:41 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 11:15:41 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 11:15:41 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 11:15:42 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 11:15:44 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 11:15:44 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 11:15:45 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 11:15:45 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 11:15:45 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 11:15:54 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 11:15:54 [[32minfo[39m] : [32mSIGINT received, closing worker...[39m
+2025-11-29 11:15:58 [[32minfo[39m] : [32mBulk Upload Worker started successfully[39m
+2025-11-29 11:15:58 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 11:15:58 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 11:15:58 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 11:16:17 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.downloadTemplate',[39m
+[32m  event: 'TEMPLATE_DOWNLOAD_REQUEST',[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84'),[39m
+[32m  userId: '69297b89f2e03e0d3867791f'[39m
+[32m}[39m
+2025-11-29 11:16:17 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.downloadTemplate',[39m
+[32m  event: 'TEMPLATE_GENERATED',[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84'),[39m
+[32m  fileName: 'product-upload-template-1764395177017.xlsx'[39m
+[32m}[39m
+2025-11-29 11:16:17 [[32minfo[39m] : [32mHTTP GET /api/bulkProduct/template[39m
+2025-11-29 11:17:19 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:18:34 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:50:00.136Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '6d03b05a247ea5f0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '6d03b05a247ea5f0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:50:00.136Z',[39m
+[32m  endTime: '2025-11-29T05:50:00.362Z',[39m
+[32m  duration: '226ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:20:25 [[32minfo[39m] : [32mHTTP GET /api/bulkProduct/categories[39m
+2025-11-29 11:20:35 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:22:25 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:24:05 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T05:55:00.138Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9be08589b7a4cac4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9be08589b7a4cac4',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T05:55:00.138Z',[39m
+[32m  endTime: '2025-11-29T05:55:00.369Z',[39m
+[32m  duration: '231ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:25:45 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:27:35 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:29:41 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:00:00.049Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8f99633ecf77fd5d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '8f99633ecf77fd5d',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:00:00.049Z',[39m
+[32m  endTime: '2025-11-29T06:00:00.225Z',[39m
+[32m  duration: '176ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:32:06 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:33:41 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:05:00.094Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9840a8f3250e1368',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '9840a8f3250e1368',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:05:00.094Z',[39m
+[32m  endTime: '2025-11-29T06:05:00.272Z',[39m
+[32m  duration: '178ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:36:56 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:38:16 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:39:51 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:10:00.032Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0762ecfe3d381213',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '0762ecfe3d381213',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:10:00.032Z',[39m
+[32m  endTime: '2025-11-29T06:10:00.167Z',[39m
+[32m  duration: '135ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:41:17 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:43:03 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.uploadBulkProducts',[39m
+[32m  event: 'BULK_UPLOAD_REQUEST',[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84'),[39m
+[32m  userId: '69297b89f2e03e0d3867791f'[39m
+[32m}[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.uploadBulkProducts',[39m
+[32m  event: 'BULK_UPLOAD_CREATED',[39m
+[32m  bulkUploadId: new ObjectId('692a8ef1a9681d872c49db28'),[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84')[39m
+[32m}[39m
+2025-11-29 11:43:06 [[34mdebug[39m] : [34m{[39m
+[34m  event: 'BULK_UPLOAD_QUEUE_WAITING',[39m
+[34m  jobId: Job {[39m
+[34m    queue: Queue {[39m
+[34m      _events: [Object: null prototype],[39m
+[34m      _eventsCount: 5,[39m
+[34m      _maxListeners: undefined,[39m
+[34m      name: 'bulkUploadQueue',[39m
+[34m      opts: [Object],[39m
+[34m      closed: false,[39m
+[34m      hasBlockingConnection: false,[39m
+[34m      connection: [RedisConnection],[39m
+[34m      qualifiedName: 'bull:bulkUploadQueue',[39m
+[34m      keys: [Object],[39m
+[34m      toKey: [Function (anonymous)],[39m
+[34m      scripts: [Scripts],[39m
+[34m      token: '3152b271-3cd6-403d-9d68-a2076dd635da',[39m
+[34m      libName: 'bullmq',[39m
+[34m      jobsOpts: [Object],[39m
+[34m      [Symbol(shapeMode)]: false,[39m
+[34m      [Symbol(kCapture)]: false[39m
+[34m    },[39m
+[34m    name: 'process-bulk-upload',[39m
+[34m    data: {[39m
+[34m      bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[34m      filePath: 'C:\\test-dobby-backend\\uploads\\bulk\\file-1764396783098-613381268.xlsx',[39m
+[34m      shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m      userId: '69297b89f2e03e0d3867791f'[39m
+[34m    },[39m
+[34m    opts: {[39m
+[34m      attempts: 3,[39m
+[34m      backoff: [Object],[39m
+[34m      removeOnComplete: [Object],[39m
+[34m      removeOnFail: [Object],[39m
+[34m      jobId: 'bulk-upload-692a8ef1a9681d872c49db28'[39m
+[34m    },[39m
+[34m    id: 'bulk-upload-692a8ef1a9681d872c49db28',[39m
+[34m    progress: 0,[39m
+[34m    returnvalue: null,[39m
+[34m    stacktrace: null,[39m
+[34m    delay: undefined,[39m
+[34m    priority: 0,[39m
+[34m    attemptsStarted: 0,[39m
+[34m    attemptsMade: 0,[39m
+[34m    stalledCounter: 0,[39m
+[34m    repeatJobKey: undefined,[39m
+[34m    timestamp: 1764396786052,[39m
+[34m    parentKey: undefined,[39m
+[34m    debounceId: undefined,[39m
+[34m    deduplicationId: undefined,[39m
+[34m    toKey: [Function: bound ],[39m
+[34m    scripts: Scripts {[39m
+[34m      queue: [Object],[39m
+[34m      version: '5.65.0',[39m
+[34m      moveToFinishedKeys: [Array][39m
+[34m    },[39m
+[34m    queueQualifiedName: 'bull:bulkUploadQueue'[39m
+[34m  }[39m
+[34m}[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32m{[39m
+[32m  route: 'bulkUploadController.uploadBulkProducts',[39m
+[32m  event: 'BULK_UPLOAD_JOB_QUEUED',[39m
+[32m  bulkUploadId: new ObjectId('692a8ef1a9681d872c49db28'),[39m
+[32m  shopId: new ObjectId('69297c7cf2e03e0d38677b84')[39m
+[32m}[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32mHTTP POST /api/bulkProduct/[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_JOB_STARTED',[39m
+[32m  jobId: 'bulk-upload-692a8ef1a9681d872c49db28',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84'[39m
+[32m}[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32m{ event: 'EXCEL_FILE_PARSED', rowCount: 3, sheetName: 'Products' }[39m
+2025-11-29 11:43:06 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_STARTED',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  totalRows: 3[39m
+[32m}[39m
+2025-11-29 11:43:06 [[33mwarn[39m] : [33m{[39m
+[33m  event: 'BULK_UPLOAD_ROW_VALIDATION_FAILED',[39m
+[33m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[33m  row: 2,[39m
+[33m  errors: [[39m
+[33m    {[39m
+[33m      row: 2,[39m
+[33m      field: 'categoryId',[39m
+[33m      message: 'Invalid or inactive category',[39m
+[33m      data: [Object][39m
+[33m    },[39m
+[33m    {[39m
+[33m      row: 2,[39m
+[33m      field: 'subCategoryId',[39m
+[33m      message: 'Invalid subcategory or does not belong to specified category',[39m
+[33m      data: [Object][39m
+[33m    }[39m
+[33m  ][39m
+[33m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CACHE_INVALIDATE_PRODUCTS',[39m
+[32m  productId: new ObjectId('692a8ef842b1890c8686ce21'),[39m
+[32m  deletedCount: 0[39m
+[32m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{ event: 'CACHE_INVALIDATE_SALES_REPORTS', deletedCount: 0 }[39m
+2025-11-29 11:43:12 [[34mdebug[39m] : [34m{[39m
+[34m  event: 'PRODUCT_CACHE_INVALIDATED_ON_SAVE',[39m
+[34m  productId: new ObjectId('692a8ef842b1890c8686ce21')[39m
+[34m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_ROW_SUCCESS',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  row: 3,[39m
+[32m  productId: new ObjectId('692a8ef842b1890c8686ce21'),[39m
+[32m  hasImages: { icon1: true, icon2Count: 1, metaImage: true }[39m
+[32m}[39m
+2025-11-29 11:43:12 [[33mwarn[39m] : [33m{[39m
+[33m  event: 'BULK_UPLOAD_ROW_VALIDATION_FAILED',[39m
+[33m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[33m  row: 4,[39m
+[33m  errors: [[39m
+[33m    {[39m
+[33m      row: 4,[39m
+[33m      field: 'discountValue',[39m
+[33m      message: 'Flat discount cannot exceed unit price',[39m
+[33m      data: [Object][39m
+[33m    },[39m
+[33m    {[39m
+[33m      row: 4,[39m
+[33m      field: 'sku',[39m
+[33m      message: "SKU 'oneplus41' already exists",[39m
+[33m      data: [Object][39m
+[33m    }[39m
+[33m  ][39m
+[33m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CACHE_INVALIDATE_PRODUCTS',[39m
+[32m  productId: null,[39m
+[32m  deletedCount: 0[39m
+[32m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{ event: 'CACHE_INVALIDATE_SALES_REPORTS', deletedCount: 0 }[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_CACHE_INVALIDATED',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84'[39m
+[32m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_COMPLETED',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  totalRows: 3,[39m
+[32m  successCount: 1,[39m
+[32m  failedCount: 2,[39m
+[32m  processingTime: 6,[39m
+[32m  finalStatus: 'partial'[39m
+[32m}[39m
+2025-11-29 11:43:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'BULK_UPLOAD_JOB_COMPLETED',[39m
+[32m  jobId: 'bulk-upload-692a8ef1a9681d872c49db28',[39m
+[32m  bulkUploadId: '692a8ef1a9681d872c49db28',[39m
+[32m  result: {[39m
+[32m    success: true,[39m
+[32m    totalRows: 3,[39m
+[32m    successCount: 1,[39m
+[32m    failedCount: 2,[39m
+[32m    errors: [ [Object], [Object], [Object], [Object] ],[39m
+[32m    processingTime: 6[39m
+[32m  }[39m
+[32m}[39m
+2025-11-29 11:43:13 [[32minfo[39m] : [32m{[39m
+[32m  event: 'WORKER_JOB_COMPLETED',[39m
+[32m  jobId: 'bulk-upload-692a8ef1a9681d872c49db28',[39m
+[32m  result: {[39m
+[32m    success: true,[39m
+[32m    totalRows: 3,[39m
+[32m    successCount: 1,[39m
+[32m    failedCount: 2,[39m
+[32m    errors: [ [Object], [Object], [Object], [Object] ],[39m
+[32m    processingTime: 6[39m
+[32m  }[39m
+[32m}[39m
+2025-11-29 11:43:32 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:44:57 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:15:00.204Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '3ca6fb396a0cace2',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '3ca6fb396a0cace2',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:15:00.204Z',[39m
+[32m  endTime: '2025-11-29T06:15:00.399Z',[39m
+[32m  duration: '195ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:46:27 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:48:07 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:49:32 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:20:00.063Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '84246c4f16e77322',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:50:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '84246c4f16e77322',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:50:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:20:00.063Z',[39m
+[32m  endTime: '2025-11-29T06:20:00.198Z',[39m
+[32m  duration: '135ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:51:03 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:52:43 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:54:18 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:25:00.064Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 11:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'f97236417b2df567',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 11:55:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'f97236417b2df567',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 11:55:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:25:00.064Z',[39m
+[32m  endTime: '2025-11-29T06:25:00.285Z',[39m
+[32m  duration: '221ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 11:55:53 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:57:23 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 11:59:13 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T06:30:00.146Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a14d5cdd20dfdf1c',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-29T06:30:00.258Z'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: '2d853853be3ff875',[39m
+[32m  event: 'PERIODIC_RECALCULATION_START',[39m
+[32m  time: '2025-11-29T06:30:00.267Z'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:30:00.280Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'c55ac71aaafcadcc',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a14d5cdd20dfdf1c',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 2[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'a14d5cdd20dfdf1c',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  shopName: 'Paras Store'[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T06:30:00.311Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '188765934509fb84',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: '2d853853be3ff875',[39m
+[32m  event: 'RECALCULATING_TODAY_ANALYTICS',[39m
+[32m  shopCount: 2[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T06:30:00.337Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'ff28785677bf358a',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T06:30:00.146Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'c55ac71aaafcadcc',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:30:00.280Z',[39m
+[32m  endTime: '2025-11-29T06:30:00.405Z',[39m
+[32m  duration: '125ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T06:30:00.146Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T06:30:00.146Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'ff28785677bf358a',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'ff28785677bf358a',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '188765934509fb84',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '188765934509fb84',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '188765934509fb84',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f25'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a14d5cdd20dfdf1c',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  shopName: 'Paras Store'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: 'a14d5cdd20dfdf1c',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  shopName: 'all-in-one'[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T06:30:00.311Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cac4870dd6454613',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'ff28785677bf358a',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f25'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[34m  requestId: '2d853853be3ff875',[39m
+[34m  event: 'SHOP_RECALCULATED',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84'[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T06:30:00.337Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1d04818f1a827578',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 2,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cac4870dd6454613',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'cac4870dd6454613',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 2,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1d04818f1a827578',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 12:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 12:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1d04818f1a827578',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'cac4870dd6454613',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f26'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a14d5cdd20dfdf1c',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  shopName: 'all-in-one'[39m
+[32m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: 'a14d5cdd20dfdf1c',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 2,[39m
+[32m  successCount: 2,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1d04818f1a827578',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f26'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 12:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[34m  requestId: '2d853853be3ff875',[39m
+[34m  event: 'SHOP_RECALCULATED',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47'[39m
+[34m}[39m
+2025-11-29 12:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.periodicRecalculation',[39m
+[32m  requestId: '2d853853be3ff875',[39m
+[32m  event: 'PERIODIC_RECALCULATION_COMPLETE',[39m
+[32m  successCount: 2,[39m
+[32m  failCount: 0[39m
+[32m}[39m
+2025-11-29 12:01:09 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:02:54 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:04:54 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:35:00.126Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 12:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5e1127fca93432aa',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 12:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5e1127fca93432aa',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:35:00.126Z',[39m
+[32m  endTime: '2025-11-29T06:35:00.337Z',[39m
+[32m  duration: '211ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 12:06:29 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:09:09 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:40:00.116Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 12:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'e2b70fd539ec3658',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 12:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'e2b70fd539ec3658',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:40:00.116Z',[39m
+[32m  endTime: '2025-11-29T06:40:00.299Z',[39m
+[32m  duration: '183ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 12:10:40 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:11:05 [[32minfo[39m] : [32mHTTP POST /api/webhooks/cancel[39m
+2025-11-29 12:12:05 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:45:00.153Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 12:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '24c22a6fcd109ff3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 12:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '24c22a6fcd109ff3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:45:00.153Z',[39m
+[32m  endTime: '2025-11-29T06:45:00.377Z',[39m
+[32m  duration: '224ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 12:15:40 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:17:36 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:18:46 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:19:46 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T06:50:00.192Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 12:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '938752331d152d29',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 12:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '938752331d152d29',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 12:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T06:50:00.192Z',[39m
+[32m  endTime: '2025-11-29T06:50:00.437Z',[39m
+[32m  duration: '245ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 12:20:56 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:22:01 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:23:06 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 12:23:18 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 12:23:18 [[32minfo[39m] : [32mSIGINT received, closing worker...[39m
+2025-11-29 12:23:24 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 12:23:33 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 12:23:33 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 12:23:33 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 12:23:34 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 12:23:35 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 12:23:35 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 12:23:36 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 12:23:36 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 12:23:37 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 13:14:21 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 13:14:21 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 13:14:21 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 13:14:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 13:14:23 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 13:14:23 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 13:14:25 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 13:39:18 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 13:39:18 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 13:39:18 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 13:39:19 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 13:39:20 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 13:39:20 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 13:39:22 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 13:39:22 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 13:39:23 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 13:39:23 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 13:39:23 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 13:39:29 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 13:42:41 [[32minfo[39m] : [32mBulk Upload Worker started successfully[39m
+2025-11-29 13:42:41 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 13:42:41 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 13:42:43 [[32minfo[39m] : [32mWorker: MongoDB connected[39m
+2025-11-29 13:43:40 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:44:45 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:45:40 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:46:46 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:47:36 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:48:16 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:49:31 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:50:16 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:51:16 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:52:21 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:53:01 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:54:06 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 13:54:51 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 14:55:25 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 14:55:25 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 14:55:25 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 14:55:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 14:55:26 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:26 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:26 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 1, waiting 50ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 50 }[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 2, waiting 100ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 100 }[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 3, waiting 150ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 150 }[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 4, waiting 200ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 200 }[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 5, waiting 250ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 250 }[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:27 [[34mdebug[39m] : [34mRedis retry attempt 6, waiting 300ms[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:27 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 300 }[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[34mdebug[39m] : [34mRedis retry attempt 7, waiting 350ms[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 350 }[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[34mdebug[39m] : [34mRedis retry attempt 8, waiting 400ms[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 400 }[39m
+2025-11-29 14:55:28 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 14:55:28 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:28 [[34mdebug[39m] : [34mRedis retry attempt 9, waiting 450ms[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:28 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 450 }[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[34mdebug[39m] : [34mRedis retry attempt 10, waiting 500ms[39m
+2025-11-29 14:55:29 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:29 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 500 }[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:29 [[34mdebug[39m] : [34mRedis retry attempt 11, waiting 550ms[39m
+2025-11-29 14:55:29 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:29 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 550 }[39m
+2025-11-29 14:55:30 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:30 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:30 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:30 [[34mdebug[39m] : [34mRedis retry attempt 12, waiting 600ms[39m
+2025-11-29 14:55:30 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:30 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 600 }[39m
+2025-11-29 14:55:30 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 14:55:30 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 14:55:30 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[34mdebug[39m] : [34mRedis retry attempt 13, waiting 650ms[39m
+2025-11-29 14:55:31 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:31 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 650 }[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:31 [[34mdebug[39m] : [34mRedis retry attempt 14, waiting 700ms[39m
+2025-11-29 14:55:31 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:31 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 700 }[39m
+2025-11-29 14:55:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:32 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:32 [[34mdebug[39m] : [34mRedis retry attempt 15, waiting 750ms[39m
+2025-11-29 14:55:32 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:32 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 750 }[39m
+2025-11-29 14:55:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:33 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:33 [[34mdebug[39m] : [34mRedis retry attempt 16, waiting 800ms[39m
+2025-11-29 14:55:33 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:33 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 800 }[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[34mdebug[39m] : [34mRedis retry attempt 17, waiting 850ms[39m
+2025-11-29 14:55:34 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:34 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 850 }[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:34 [[34mdebug[39m] : [34mRedis retry attempt 18, waiting 900ms[39m
+2025-11-29 14:55:34 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:34 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 900 }[39m
+2025-11-29 14:55:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:35 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:35 [[34mdebug[39m] : [34mRedis retry attempt 19, waiting 950ms[39m
+2025-11-29 14:55:35 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:35 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 950 }[39m
+2025-11-29 14:55:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:36 [[34mdebug[39m] : [34mRedis retry attempt 20, waiting 1000ms[39m
+2025-11-29 14:55:36 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:36 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1000 }[39m
+2025-11-29 14:55:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:37 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:37 [[34mdebug[39m] : [34mRedis retry attempt 21, waiting 1050ms[39m
+2025-11-29 14:55:37 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:37 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1050 }[39m
+2025-11-29 14:55:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:38 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:38 [[34mdebug[39m] : [34mRedis retry attempt 22, waiting 1100ms[39m
+2025-11-29 14:55:38 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:38 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1100 }[39m
+2025-11-29 14:55:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:39 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:39 [[34mdebug[39m] : [34mRedis retry attempt 23, waiting 1150ms[39m
+2025-11-29 14:55:39 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:39 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1150 }[39m
+2025-11-29 14:55:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:41 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:41 [[34mdebug[39m] : [34mRedis retry attempt 24, waiting 1200ms[39m
+2025-11-29 14:55:41 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:41 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1200 }[39m
+2025-11-29 14:55:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:42 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:42 [[34mdebug[39m] : [34mRedis retry attempt 25, waiting 1250ms[39m
+2025-11-29 14:55:42 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:42 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1250 }[39m
+2025-11-29 14:55:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:43 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:43 [[34mdebug[39m] : [34mRedis retry attempt 26, waiting 1300ms[39m
+2025-11-29 14:55:43 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:43 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1300 }[39m
+2025-11-29 14:55:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:44 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:44 [[34mdebug[39m] : [34mRedis retry attempt 27, waiting 1350ms[39m
+2025-11-29 14:55:44 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:44 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1350 }[39m
+2025-11-29 14:55:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:46 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:46 [[34mdebug[39m] : [34mRedis retry attempt 28, waiting 1400ms[39m
+2025-11-29 14:55:46 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:46 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1400 }[39m
+2025-11-29 14:55:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:47 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:47 [[34mdebug[39m] : [34mRedis retry attempt 29, waiting 1450ms[39m
+2025-11-29 14:55:47 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:47 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1450 }[39m
+2025-11-29 14:55:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:49 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:49 [[34mdebug[39m] : [34mRedis retry attempt 30, waiting 1500ms[39m
+2025-11-29 14:55:49 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:49 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1500 }[39m
+2025-11-29 14:55:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:50 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:50 [[34mdebug[39m] : [34mRedis retry attempt 31, waiting 1550ms[39m
+2025-11-29 14:55:50 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:50 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1550 }[39m
+2025-11-29 14:55:52 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:52 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:52 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:52 [[34mdebug[39m] : [34mRedis retry attempt 32, waiting 1600ms[39m
+2025-11-29 14:55:52 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:52 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1600 }[39m
+2025-11-29 14:55:53 [[31merror[39m] : [31m{[39m
+[31m  event: 'REDIS_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:53 [[31merror[39m] : [31m{[39m
+[31m  event: 'SHIPMENT_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:53 [[31merror[39m] : [31m{[39m
+[31m  event: 'BULK_UPLOAD_QUEUE_ERROR',[39m
+[31m  error: 'connect ECONNREFUSED 127.0.0.1:6379',[39m
+[31m  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +[39m
+[31m    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)'[39m
+[31m}[39m
+2025-11-29 14:55:53 [[34mdebug[39m] : [34mRedis retry attempt 33, waiting 1650ms[39m
+2025-11-29 14:55:53 [[33mwarn[39m] : [33m{ event: 'REDIS_CONNECTION_CLOSED' }[39m
+2025-11-29 14:55:53 [[33mwarn[39m] : [33m{ event: 'REDIS_RECONNECTING', delay: 1650 }[39m
+2025-11-29 14:55:55 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 14:55:55 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 14:56:15 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 14:56:43 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 14:56:43 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 14:56:43 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 14:56:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 14:56:45 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 14:56:45 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 14:56:47 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 14:56:47 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 14:56:48 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 14:56:48 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 14:56:48 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 14:57:02 [[32minfo[39m] : [32mHTTP POST /api/auth/shopkeeper-login[39m
+2025-11-29 14:58:24 [[32minfo[39m] : [32mHTTP POST /api/auth/verify-login[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:30:00.038Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4b066be20b67454c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T09:30:00.044Z',[39m
+[32m  event: 'PRICING_RULE_CRON_START'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_START',[39m
+[32m  time: '2025-11-29T09:30:00.054Z'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'ACTIVE_SHOPS_FOUND',[39m
+[32m  count: 3[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b0dc8547285a3a2',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  shopName: 'Paras Store'[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T09:30:00.095Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1655a1f2324025de',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4b066be20b67454c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:30:00.038Z',[39m
+[32m  endTime: '2025-11-29T09:30:00.135Z',[39m
+[32m  duration: '97ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T09:30:00.044Z',[39m
+[32m  event: 'RULES_AUTO_ACTIVATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T09:30:00.044Z',[39m
+[32m  event: 'RULES_AUTO_EXPIRED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  service: 'PricingRuleCron',[39m
+[32m  timestamp: '2025-11-29T09:30:00.044Z',[39m
+[32m  event: 'PRICING_RULE_CRON_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1655a1f2324025de',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '1655a1f2324025de',[39m
+[34m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '1655a1f2324025de',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f25'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '69297c7cf2e03e0d38677b84',[39m
+[32m  shopName: 'Paras Store'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b0dc8547285a3a2',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  shopName: 'all-in-one'[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T09:30:00.095Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '00bceff75ee688ba',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 2,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '00bceff75ee688ba',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 15:00:00 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: '00bceff75ee688ba',[39m
+[34m  shopId: '692a7707b91a5b795ea59d47',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: '00bceff75ee688ba',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692a84b1a3612aea6c862f26'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692a7707b91a5b795ea59d47',[39m
+[32m  shopName: 'all-in-one'[39m
+[32m}[39m
+2025-11-29 15:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[34m  requestId: '5b0dc8547285a3a2',[39m
+[34m  event: 'UPDATING_SHOP_ANALYTICS',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  shopName: 'Avatar Store'[39m
+[34m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ANALYTICS_CALCULATION_START',[39m
+[32m  startDate: 2025-11-28T18:30:00.000Z,[39m
+[32m  endDate: 2025-11-29T09:30:00.095Z,[39m
+[32m  periodType: 'daily'[39m
+[32m}[39m
+2025-11-29 15:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'a5980fa282abe819',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'DATE_RANGE_NORMALIZED',[39m
+[34m  start: 2025-11-28T18:30:00.000Z,[39m
+[34m  end: 2025-11-29T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ORDERS_FETCHED',[39m
+[32m  orderCount: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'SALES_CALCULATED',[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  uniqueCustomers: 0,[39m
+[32m  uniqueProducts: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ABANDONED_CART_METRICS',[39m
+[32m  totalAbandonedCarts: 0,[39m
+[32m  recoveredCarts: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'a5980fa282abe819',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'PRODUCTS_SORTED',[39m
+[34m  topProductsCount: 0[39m
+[34m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'TOP_PRODUCTS_CALCULATED',[39m
+[32m  count: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[34mdebug[39m] : [34m{[39m
+[34m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[34m  requestId: 'a5980fa282abe819',[39m
+[34m  shopId: '692aace2649463a31b137df2',[39m
+[34m  event: 'CALCULATING_PREVIOUS_PERIOD',[39m
+[34m  previousStart: 2025-11-27T18:30:00.001Z,[39m
+[34m  previousEnd: 2025-11-28T18:29:59.999Z[39m
+[34m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'GROWTH_CALCULATED',[39m
+[32m  salesGrowth: 0,[39m
+[32m  ordersGrowth: 0,[39m
+[32m  previousSales: 0,[39m
+[32m  previousOrders: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsService.calculateShopAnalytics',[39m
+[32m  requestId: 'a5980fa282abe819',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  event: 'ANALYTICS_SAVED',[39m
+[32m  analyticsId: new ObjectId('692abcf2a3612aea6c862fd2'),[39m
+[32m  totalSales: 0,[39m
+[32m  totalOrders: 0,[39m
+[32m  conversionRate: 0[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'SHOP_ANALYTICS_UPDATED',[39m
+[32m  shopId: '692aace2649463a31b137df2',[39m
+[32m  shopName: 'Avatar Store'[39m
+[32m}[39m
+2025-11-29 15:00:01 [[32minfo[39m] : [32m{[39m
+[32m  route: 'AnalyticsJob.hourlyUpdate',[39m
+[32m  requestId: '5b0dc8547285a3a2',[39m
+[32m  event: 'HOURLY_ANALYTICS_UPDATE_COMPLETE',[39m
+[32m  totalShops: 3,[39m
+[32m  successCount: 3,[39m
+[32m  failCount: 0,[39m
+[32m  duration: NaN[39m
+[32m}[39m
+2025-11-29 15:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:35:00.018Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ccc0f5fe7caa5df5',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:05:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ccc0f5fe7caa5df5',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:05:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:35:00.018Z',[39m
+[32m  endTime: '2025-11-29T09:35:00.202Z',[39m
+[32m  duration: '184ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:40:00.042Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '48c6c461cd607ca3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:10:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '48c6c461cd607ca3',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:10:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:40:00.042Z',[39m
+[32m  endTime: '2025-11-29T09:40:00.267Z',[39m
+[32m  duration: '225ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:45:00.076Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '1891d8409c109fa0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '1891d8409c109fa0',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:45:00.076Z',[39m
+[32m  endTime: '2025-11-29T09:45:00.239Z',[39m
+[32m  duration: '163ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:50:00.072Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '15b650270fd5d7ca',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '15b650270fd5d7ca',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:50:00.072Z',[39m
+[32m  endTime: '2025-11-29T09:50:00.255Z',[39m
+[32m  duration: '183ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T09:55:00.049Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5cb93e24c7f5aca2',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '5cb93e24c7f5aca2',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T09:55:00.049Z',[39m
+[32m  endTime: '2025-11-29T09:55:00.298Z',[39m
+[32m  duration: '249ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T10:00:00.053Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a9016e4c0986999c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a9016e4c0986999c',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T10:00:00.053Z',[39m
+[32m  endTime: '2025-11-29T10:00:00.324Z',[39m
+[32m  duration: '271ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T10:05:00.041Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '144b442053bbc90b',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '144b442053bbc90b',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T10:05:00.041Z',[39m
+[32m  endTime: '2025-11-29T10:05:00.256Z',[39m
+[32m  duration: '215ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T10:10:00.093Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '83d1ccd921f53b96',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '83d1ccd921f53b96',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T10:10:00.093Z',[39m
+[32m  endTime: '2025-11-29T10:10:00.293Z',[39m
+[32m  duration: '200ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T10:15:00.127Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 15:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '69b97da3a6a87953',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 15:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '69b97da3a6a87953',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 15:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T10:15:00.127Z',[39m
+[32m  endTime: '2025-11-29T10:15:00.371Z',[39m
+[32m  duration: '244ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 15:48:01 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 15:48:10 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 15:48:10 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 15:48:10 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 15:48:12 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 15:48:14 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 15:48:14 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 15:48:15 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 16:37:55 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 16:37:55 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 16:37:55 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 16:37:57 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 16:37:58 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 16:37:58 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 16:38:00 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 16:38:00 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 16:38:02 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 16:38:02 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 16:38:02 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 16:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T11:10:00.108Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 16:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '585e9c107c7456fe',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 16:40:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '585e9c107c7456fe',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 16:40:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T11:10:00.108Z',[39m
+[32m  endTime: '2025-11-29T11:10:00.392Z',[39m
+[32m  duration: '284ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 16:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-29T11:15:00.162Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-29 16:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '45bfeb12912e1b32',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-29 16:45:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '45bfeb12912e1b32',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-29 16:45:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-29T11:15:00.162Z',[39m
+[32m  endTime: '2025-11-29T11:15:00.434Z',[39m
+[32m  duration: '272ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-29 16:45:04 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 16:45:21 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 16:45:21 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 16:45:21 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 16:45:22 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 16:45:23 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 16:45:23 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 16:45:25 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 16:45:25 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 16:45:26 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-29 16:45:26 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-29 16:45:26 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-29 16:45:29 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 17:11:26 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 17:11:26 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 17:11:26 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 17:11:28 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 17:11:29 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-29 17:30:25 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-29 17:30:25 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-29 17:30:25 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-29 17:30:26 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-29 17:30:27 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-29 17:30:27 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-29 17:30:28 [[32minfo[39m] : [32mClosing Redis connection...[39m

@@ -1,0 +1,437 @@
+2025-11-28 10:31:13 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 10:31:13 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 10:31:13 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 10:31:14 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 10:31:15 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 10:31:15 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 10:31:17 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 10:31:17 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 10:31:19 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 10:31:19 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 10:31:19 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 10:31:41 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 11:20:51 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 11:20:51 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 11:20:51 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 11:20:52 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 11:20:57 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 11:20:57 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 11:20:59 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 11:20:59 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 11:20:59 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 11:21:06 [[32minfo[39m] : [32mHTTP DELETE /api/countries/delete-all-except-india[39m
+2025-11-28 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-28T05:55:00.058Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-28 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ecaab9def8738993',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-28 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ecaab9def8738993',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-28 11:25:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-28T05:55:00.058Z',[39m
+[32m  endTime: '2025-11-28T05:55:00.840Z',[39m
+[32m  duration: '782ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-28 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-28T06:00:00.096Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-28 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4279e41747edb6d8',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-28 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: '4279e41747edb6d8',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-28 11:30:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-28T06:00:00.096Z',[39m
+[32m  endTime: '2025-11-28T06:00:00.335Z',[39m
+[32m  duration: '239ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-28 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-28T06:05:00.094Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-28 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a5c5df9db6188541',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-28 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'a5c5df9db6188541',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-28 11:35:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-28T06:05:00.094Z',[39m
+[32m  endTime: '2025-11-28T06:05:00.211Z',[39m
+[32m  duration: '117ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-28 11:36:25 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 11:36:38 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 11:36:38 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 11:36:38 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 11:36:39 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 11:36:45 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 11:36:45 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 11:36:48 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 11:36:48 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 11:36:48 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 11:38:12 [[32minfo[39m] : [32mHTTP GET /api/countries/all[39m
+2025-11-28 11:38:47 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 12:11:51 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 12:11:51 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 12:11:51 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 12:11:52 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 12:11:56 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 13:01:15 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 13:01:15 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 13:01:15 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 13:01:16 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 13:01:17 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 13:01:18 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 13:10:19 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 13:10:19 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 13:10:19 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 13:10:20 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 13:10:21 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 13:10:21 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 13:10:22 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 13:21:53 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 13:21:54 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 13:21:54 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 13:21:55 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 13:54:53 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 13:54:53 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 13:54:53 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 13:54:54 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 13:54:56 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 15:50:43 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 15:50:43 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 15:50:43 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 15:50:44 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 15:50:46 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 15:50:46 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 15:50:48 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 15:50:48 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 15:50:48 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 15:51:02 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 18:10:34 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 18:10:34 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 18:10:34 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 18:10:36 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 18:10:37 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 18:10:37 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 18:10:40 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 18:10:40 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 18:10:41 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 18:10:41 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 18:10:41 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 18:12:10 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-11-28 18:12:19 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-11-28 18:12:19 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-11-28 18:12:19 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{ event: 'REDIS_CONNECTED', url: 'redis://127.0.0.1:6379' }[39m
+2025-11-28 18:12:21 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-11-28 18:12:27 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 18:12:27 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 18:12:30 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-11-28 18:12:30 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-11-28 18:12:30 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-11-28 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-28T12:45:00.099Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-28 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'b404b81e8871c522',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-28 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'b404b81e8871c522',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-28 18:15:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-28T12:45:00.099Z',[39m
+[32m  endTime: '2025-11-28T12:45:00.281Z',[39m
+[32m  duration: '182ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-28 18:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_STARTED',[39m
+[32m  time: '2025-11-28T12:50:00.081Z',[39m
+[32m  nextRun: '5 minutes'[39m
+[32m}[39m
+2025-11-28 18:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ab2e0c00f214ffce',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_START'[39m
+[32m}[39m
+2025-11-28 18:20:00 [[32minfo[39m] : [32m{[39m
+[32m  route: 'flashsaleController.updateFlashSaleStatuses',[39m
+[32m  requestId: 'ab2e0c00f214ffce',[39m
+[32m  type: 'CRON_JOB',[39m
+[32m  event: 'CRON_UPDATE_STATUSES_COMPLETE',[39m
+[32m  activated: 0,[39m
+[32m  expired: 0[39m
+[32m}[39m
+2025-11-28 18:20:00 [[32minfo[39m] : [32m{[39m
+[32m  event: 'FLASH_SALE_CRON_COMPLETED',[39m
+[32m  startTime: '2025-11-28T12:50:00.081Z',[39m
+[32m  endTime: '2025-11-28T12:50:00.242Z',[39m
+[32m  duration: '161ms',[39m
+[32m  result: { activated: 0, expired: 0 }[39m
+[32m}[39m
+2025-11-28 18:22:11 [[32minfo[39m] : [32mClosing Redis connection...[39m

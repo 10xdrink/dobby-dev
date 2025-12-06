@@ -1,0 +1,41 @@
+config:
+  target: "http://localhost:5000"   # backend URL
+  phases:
+    - duration: 60   # seconds
+      arrivalRate: 5  # users/sec
+  defaults:
+    headers:
+      Content-Type: "application/json"
+
+scenarios:
+  - name: "Get All Products"
+    flow:
+      - get:
+          url: "/api/products"
+
+  - name: "Get Inventory Data"
+    flow:
+      - get:
+          url: "/api/products/inventory-data"
+
+  - name: "Get Public Products"
+    flow:
+      - get:
+          url: "/api/products/public"
+
+  - name: "Get Single Public Product"
+    flow:
+      - get:
+          url: "/api/products/public/64f31a7d9e4b98f99c123abc"
+
+  - name: "Search Suggestions"
+    flow:
+      - get:
+          url: "/api/products/search-suggestions"
+
+  - name: "Similar Products"
+    flow:
+      - get:
+          url: "/api/products/similar-product"
+
+

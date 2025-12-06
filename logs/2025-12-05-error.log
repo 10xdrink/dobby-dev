@@ -1,0 +1,40 @@
+2025-12-05 22:01:26 [[31merror[39m] : Error: Unable to send OTP. Please try again later.
+    at sendOTP (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async exports.sendSignupOtp (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\controllers\customerController.js:279:7)
+2025-12-05 22:04:04 [[31merror[39m] : Error: Unable to send OTP. Please try again later.
+    at sendOTP (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async exports.sendSignupOtp (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\controllers\customerController.js:279:7)
+2025-12-05 22:06:05 [[31merror[39m] : Error: Cannot find module 'aws-sdk'
+Require stack:
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\controllers\authController.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\routes\authRoutes.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1445:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js:101:13)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+2025-12-05 22:06:23 [[31merror[39m] : Error: Cannot find module 'aws-sdk'
+Require stack:
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\controllers\authController.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\routes\authRoutes.js
+- C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1445:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Khushnoor\Desktop\Dobby App Development\Backend\utils\mailer.js:101:13)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)

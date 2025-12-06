@@ -1,0 +1,8 @@
+2025-11-21 11:57:36 [[31merror[39m] : [31m{[39m
+[31m  event: 'SITEMAP_HOOKS_INITIALIZATION_ERROR',[39m
+[31m  error: 'Product.post is not a function'[39m
+[31m}[39m
+2025-11-21 11:58:03 [[31merror[39m] : [31m{[39m
+[31m  event: 'SITEMAP_HOOKS_INITIALIZATION_ERROR',[39m
+[31m  error: 'Product.post is not a function'[39m
+[31m}[39m
