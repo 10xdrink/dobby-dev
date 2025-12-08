@@ -98,6 +98,7 @@ const notificationRoutes = require("./routes/notificationRoutes");
 const cartRoutes = require("./routes/cartRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const returnRoutes = require("./routes/returnRoutes");
+const imageSearchRoutes = require("./routes/imageSearchRoutes");
 const addressRoutes = require("./routes/addressRoutes");
 const abandonedcartRoutes = require("./routes/abandonedcartRoutes");
 const shiprocketRoutes = require("./routes/shiprocketRoutes");
@@ -267,6 +268,7 @@ app.use("/api/shops", shopRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/products", productRoutes);
+app.use("/api/image-search", imageSearchRoutes);
 
 app.use("/api/seo", seoRoutes);
 app.use("/api/roles", roleRoutes);
