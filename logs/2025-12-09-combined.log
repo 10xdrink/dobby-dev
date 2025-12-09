@@ -6,3 +6,23 @@
 2025-12-09 18:34:26 [[32minfo[39m] : [32m✅ Connected to MongoDB for seeding[39m
 2025-12-09 18:34:26 [[32minfo[39m] : [32m🗑️  Cleared existing slider banners[39m
 2025-12-09 18:34:27 [[32minfo[39m] : [32m✅ Successfully seeded 5 banners[39m
+2025-12-09 18:43:40 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis://default:***@redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-09 18:43:41 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-12-09 18:43:41 [[32minfo[39m] : [32m✅ Connected to MongoDB for seeding[39m
+2025-12-09 18:43:41 [[32minfo[39m] : [32m🗑️  Cleared existing slider banners[39m
+2025-12-09 18:43:41 [[32minfo[39m] : [32m✅ Successfully seeded 5 banners[39m
+2025-12-09 18:45:49 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis://default:***@redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-09 18:45:49 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-12-09 18:45:49 [[32minfo[39m] : [32m✅ Connected to MongoDB[39m
+2025-12-09 18:45:50 [[32minfo[39m] : [32m✅ Cleared 0 banner cache keys[39m
+2025-12-09 18:45:50 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CACHE_DELETE_PATTERN',[39m
+[32m  pattern: 'dobby:global:*banner*',[39m
+[32m  deletedCount: 1[39m
+[32m}[39m
