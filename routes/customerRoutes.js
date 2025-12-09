@@ -155,14 +155,7 @@ router.get(
   (req, res, next) => {
     logger.info("Google OAuth login attempt started");
     const sessionId = req.query.sessionId;
-    const isMobile = req.query.mobile === 'true' || req.headers['user-agent']?.includes('Expo');
-    
-    const state = JSON.stringify({ 
-      sessionId: sessionId || null,
-      isMobile: isMobile 
-    });
-    
-    logger.info(`OAuth initiated - Mobile: ${isMobile}, SessionId: ${sessionId}`);
+    const state = sessionId ? JSON.stringify({ sessionId }) : undefined;
     
     passport.authenticate("google", { 
       scope: ["profile", "email"],
@@ -191,13 +184,10 @@ router.get(
         `Google callback: req.user found - ${req.user.email || req.user.id}`
       );
 
-      // Parse state to check if mobile and handle cart merge
-      let isMobile = false;
+      // Handle Cart Merge
       if (req.query.state) {
         try {
           const state = JSON.parse(req.query.state);
-          isMobile = state.isMobile === true;
-          
           if (state.sessionId) {
             logger.info(`Merging guest cart ${state.sessionId} for Google user ${req.user._id}`);
             await cartService.mergeGuestCart({ 
@@ -206,26 +196,20 @@ router.get(
             });
           }
         } catch (err) {
-          logger.warn(`Failed to parse state or merge cart: ${err.message}`);
+          logger.warn(`Failed to merge cart during Google callback: ${err.message}`);
         }
       }
 
       const token = generateToken(req.user);
       logger.info("Token generated successfully");
 
-      // Redirect to mobile app deep link or web app
-      if (isMobile) {
-        const deepLink = `dobbyapp://auth?token=${token}`;
-        logger.info(`Redirecting to mobile app: ${deepLink}`);
-        res.redirect(deepLink);
-      } else {
-        const frontendUrl =
-          process.env.NODE_ENV === "production"
-            ? process.env.FRONTEND_PROD
-            : process.env.FRONTEND_LOCAL;
-        logger.info(`Redirecting to web app: ${frontendUrl}/?token=${token}`);
-        res.redirect(`${frontendUrl}/?token=${token}`);
-      }
+      const frontendUrl =
+        process.env.NODE_ENV === "production"
+          ? process.env.FRONTEND_PROD
+          : process.env.FRONTEND_LOCAL;
+
+      logger.info(`Redirecting to frontend: ${frontendUrl}/?token=${token}`);
+      res.redirect(`${frontendUrl}/?token=${token}`);
     } catch (err) {
       logger.error(`Error in Google callback handler: ${err.message}`, err);
       res.status(500).send("Internal Server Error");
