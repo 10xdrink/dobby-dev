@@ -184,7 +184,6 @@ exports.applyCoupon = async (req, res) => {
       appliedCoupon: cart.appliedCoupon && cart.appliedCoupon.couponId ? cart.appliedCoupon : null,
       grandTotal: cart.grandTotal,
       totalSavings: originalTotal - cart.totalAmount,
-      assurancePlus: cart.assurancePlus,
     };
 
     successResponse(res, response, "Coupon applied successfully");
@@ -243,7 +242,6 @@ exports.removeCoupon = async (req, res) => {
       appliedCoupon: null, // Coupon was removed
       grandTotal: cart.grandTotal,
       totalSavings: originalTotal - cart.totalAmount,
-      assurancePlus: cart.assurancePlus,
     };
 
     successResponse(res, response);
@@ -270,71 +268,3 @@ exports.clearCart = async (req, res) => {
   }
 };
 
-exports.toggleAssurancePlus = async (req, res) => {
-  try {
-    const cart = await cartService.toggleAssurancePlus(req);
-    
-    // Calculate discount summary for display (same as getCart)
-    let totalProductDiscounts = 0;
-    let totalFlashSaleDiscounts = 0;
-    let totalPricingRuleDiscounts = 0;
-    let totalUpsellDiscounts = 0;
-    let totalTaxAmount = 0;
-    let originalTotal = 0;
-
-    if (cart.itemsWithTax && cart.itemsWithTax.length > 0) {
-      cart.itemsWithTax.forEach((item) => {
-        originalTotal += item.originalPrice * item.quantity;
-        totalProductDiscounts += (item.productDiscount || 0) * item.quantity;
-        totalFlashSaleDiscounts += (item.flashSaleDiscount || 0) * item.quantity;
-        totalPricingRuleDiscounts += (item.pricingRuleDiscount || 0) * item.quantity;
-        totalUpsellDiscounts += (item.upsellDiscount || 0) * item.quantity;
-        totalTaxAmount += (item.taxAmount || 0) * item.quantity;
-      });
-    }
-
-    const response = {
-      items: cart.items,
-      itemsWithTax: cart.itemsWithTax,
-      originalTotal: originalTotal,
-      totalAmount: cart.totalAmount,
-      shippingAmount: cart.shippingAmount,
-      shippingBreakdown: cart.shippingBreakdown,
-      discountBreakdown: {
-        productDiscounts: totalProductDiscounts,
-        flashSaleDiscounts: totalFlashSaleDiscounts,
-        pricingRuleDiscounts: totalPricingRuleDiscounts,
-        upsellDiscounts: totalUpsellDiscounts,
-        couponDiscount: cart.couponDiscount || 0,
-        totalDiscounts:
-          totalProductDiscounts +
-          totalFlashSaleDiscounts +
-          totalPricingRuleDiscounts +
-          totalUpsellDiscounts +
-          (cart.couponDiscount || 0),
-      },
-      totalTax: totalTaxAmount,
-      couponDiscount: cart.couponDiscount || 0,
-      appliedCoupon:
-        cart.appliedCoupon && cart.appliedCoupon.couponId
-          ? cart.appliedCoupon
-          : null,
-      grandTotal: cart.grandTotal,
-      totalSavings: originalTotal - cart.totalAmount,
-      assurancePlus: cart.assurancePlus,
-    };
-
-    successResponse(res, response);
-  } catch (err) {
-    errorResponse(res, err);
-  }
-};
-
-exports.getAssurancePlusConfig = async (req, res) => {
-  try {
-    const config = await cartService.getAssurancePlusConfig();
-    successResponse(res, config);
-  } catch (err) {
-    errorResponse(res, err);
-  }
-};

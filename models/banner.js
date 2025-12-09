@@ -12,10 +12,11 @@ const bannerSchema = new mongoose.Schema(
     bannerUrl: {
       type: String,
       required: true,
+      description: "Navigation URL when banner is clicked"
     },
     resourceType: {
       type: String,
-      enum: ["Product", "Category", "Shop"],
+      enum: ["Product", "Category", "Shop", "External"],
       required: true,
     },
     image: {
@@ -25,6 +26,54 @@ const bannerSchema = new mongoose.Schema(
     imagePublicId: {
       type: String,
       required: true,
+    },
+    // Content fields for customization
+    title: {
+      type: String,
+      default: "",
+      description: "Main heading displayed on banner"
+    },
+    subtitle: {
+      type: String,
+      default: "",
+      description: "Secondary text displayed on banner"
+    },
+    description: {
+      type: String,
+      default: "",
+      description: "Additional description text"
+    },
+    buttonText: {
+      type: String,
+      default: "Explore Now",
+      description: "Text shown on the CTA button"
+    },
+    buttonUrl: {
+      type: String,
+      default: "",
+      description: "Override URL for button (if different from bannerUrl)"
+    },
+    textColor: {
+      type: String,
+      default: "#FFFFFF",
+      description: "Color for text overlay"
+    },
+    buttonColor: {
+      type: String,
+      default: "#2563EB",
+      description: "Background color for CTA button"
+    },
+    overlayOpacity: {
+      type: Number,
+      default: 0.3,
+      min: 0,
+      max: 1,
+      description: "Darkness of overlay on banner image"
+    },
+    displayOrder: {
+      type: Number,
+      default: 0,
+      description: "Order in which banner appears"
     },
     published: {
       type: Boolean,

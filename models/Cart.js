@@ -115,34 +115,13 @@ const cartSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.Mixed,
       default: [],
     },
-    
-    // Assurance Plus (optional protection plan)
-    assurancePlus: {
-      isSelected: {
-        type: Boolean,
-        default: false,
-      },
-      price: {
-        type: Number,
-        default: 0,
-      },
-      name: {
-        type: String,
-        default: "Assurance Plus",
-      },
-      image: {
-        type: String,
-        default: "https://res.cloudinary.com/dcvi4yizg/image/upload/v1764850165/Group_1000004853_yaabi1.png",
-      },
-    },
   },
   { timestamps: true }
 );
 
-// Virtual for grand total (items + shipping + assurance plus)
+// Virtual for grand total (items + shipping)
 cartSchema.virtual("grandTotal").get(function () {
-  const assurancePlusAmount = this.assurancePlus?.isSelected ? (this.assurancePlus.price || 0) : 0;
-  return this.totalAmount + (this.shippingAmount || 0) + assurancePlusAmount;
+  return this.totalAmount + (this.shippingAmount || 0);
 });
 
 // Ensure virtuals are included in JSON/Object

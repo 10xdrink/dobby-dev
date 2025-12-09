@@ -1,5 +1,5 @@
 const express = require("express")
-const { addToCart, getCart, removeFromCart, mergeGuestCart, updateCartItemQuantity, applyCoupon, removeCoupon, clearCart, toggleAssurancePlus, getAssurancePlusConfig } = require("../controllers/cartController")
+const { addToCart, getCart, removeFromCart, mergeGuestCart, updateCartItemQuantity, applyCoupon, removeCoupon, clearCart } = require("../controllers/cartController")
 const { protect } = require("../middleware/authMiddleware")
 const { optionalAuth } = require("../middleware/optionalAuth")
 const { cacheByUser, invalidateCache } = require("../middleware/cacheMiddleware");
@@ -28,9 +28,5 @@ router.post("/apply-coupon", protect(["customer", "student"]), invalidateCache(i
 router.delete("/remove-coupon", protect(["customer", "student"]), invalidateCache(invalidateUserCache), removeCoupon);
 router.post("/merge", protect(["customer", "student"]), invalidateCache(invalidateUserCache), mergeGuestCart)
 router.delete("/", invalidateCache(invalidateUserCache), clearCart)
-
-// Assurance Plus routes
-router.post("/assurance-plus/toggle", invalidateCache(invalidateUserCache), toggleAssurancePlus);
-router.get("/assurance-plus/config", getAssurancePlusConfig);
 
 module.exports = router

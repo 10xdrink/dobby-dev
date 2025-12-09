@@ -59,7 +59,8 @@ exports.getPublishedBanners = async (req, res) => {
     if (type) filter.bannerType = type;
 
     logger.info("[Banner] Fetch published banners", filter);
-    const banners = await Banner.find(filter);
+    const banners = await Banner.find(filter).sort({ displayOrder: 1, createdAt: -1 });
+    logger.info(`[Banner] Found ${banners.length} published banners`);
     return res.json({ success: true, data: banners });
   } catch (err) {
     logger.error("[Banner] Fetch published failed", { error: err.message });
