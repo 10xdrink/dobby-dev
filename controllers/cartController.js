@@ -196,6 +196,8 @@ exports.removeCoupon = async (req, res) => {
   try {
     const cart = await cartService.removeCoupon({
       user: req.user,
+      body: req.body,
+      query: req.query,
     });
     
     // Calculate discount summary for display (same as getCart)

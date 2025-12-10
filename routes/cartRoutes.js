@@ -24,8 +24,10 @@ router.get("/", cacheByUser(), getCart)
 router.patch("/:productId/quantity", invalidateCache(invalidateUserCache), updateCartItemQuantity)
 router.delete("/:productId", invalidateCache(invalidateUserCache), removeFromCart)
 
-router.post("/apply-coupon", protect(["customer", "student"]), invalidateCache(invalidateUserCache), applyCoupon);
-router.delete("/remove-coupon", protect(["customer", "student"]), invalidateCache(invalidateUserCache), removeCoupon);
+// Allow both logged-in users and guests to apply coupons
+router.post("/apply-coupon", invalidateCache(invalidateUserCache), applyCoupon);
+// Remove coupon - allow both logged-in and guests
+router.delete("/remove-coupon", invalidateCache(invalidateUserCache), removeCoupon);
 router.post("/merge", protect(["customer", "student"]), invalidateCache(invalidateUserCache), mergeGuestCart)
 router.delete("/", invalidateCache(invalidateUserCache), clearCart)
 

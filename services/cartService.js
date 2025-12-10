@@ -339,13 +339,21 @@ class CartService {
 
    async applyCoupon({ user, body }) {
     const customerId = user?._id || user?.id;
-    const { couponCode } = body;
+    const { couponCode, sessionId } = body;
 
-    if (!customerId) {
-      throw new Error("Please login to apply coupon");
+    // Support both logged-in users and guests
+    if (!customerId && !sessionId) {
+      throw new Error("Session ID or login required to apply coupon");
     }
 
-    const cart = await Cart.findOne({ customer: customerId }).populate("items.product items.shop");
+    // Find cart by customer ID or session ID
+    let cart;
+    if (customerId) {
+      cart = await Cart.findOne({ customer: customerId }).populate("items.product items.shop");
+    } else if (sessionId) {
+      cart = await Cart.findOne({ sessionId }).populate("items.product items.shop");
+    }
+    
     if (!cart || cart.items.length === 0) {
       throw new Error("Cart is empty");
     }
@@ -364,14 +372,16 @@ class CartService {
       throw new Error("Coupon has expired or not yet valid");
     }
 
-    
-    const alreadyUsed = coupon.usedBy.some(
-      (usage) => usage.customer.toString() === customerId.toString()
-    );
+    // Only check "already used" for logged-in customers (not guests)
+    if (customerId) {
+      const alreadyUsed = coupon.usedBy.some(
+        (usage) => usage.customer && usage.customer.toString() === customerId.toString()
+      );
 
-    if (alreadyUsed) {
-      logger.warn(`Coupon ${couponCode} already used by customer ${customerId}`);
-      throw new Error("You have already used this coupon");
+      if (alreadyUsed) {
+        logger.warn(`Coupon ${couponCode} already used by customer ${customerId}`);
+        throw new Error("You have already used this coupon");
+      }
     }
 
     const applicableItems = cart.items.filter(
@@ -393,7 +403,8 @@ class CartService {
 
     logger.info({
       event: "COUPON_APPLIED_TO_CART",
-      customerId,
+      customerId: customerId || "guest",
+      sessionId: sessionId || null,
       couponCode,
       couponId: coupon._id,
       couponShop: coupon.shop.toString(),
@@ -420,14 +431,23 @@ class CartService {
     return cart;
   }
 
-  async removeCoupon({ user }) {
+  async removeCoupon({ user, body, query }) {
     const customerId = user?._id || user?.id;
+    const sessionId = body?.sessionId || query?.sessionId;
 
-    if (!customerId) {
-      throw new Error("Please login to remove coupon");
+    // Support both logged-in users and guests
+    if (!customerId && !sessionId) {
+      throw new Error("Session ID or login required to remove coupon");
     }
 
-    const cart = await Cart.findOne({ customer: customerId });
+    // Find cart by customer ID or session ID
+    let cart;
+    if (customerId) {
+      cart = await Cart.findOne({ customer: customerId });
+    } else if (sessionId) {
+      cart = await Cart.findOne({ sessionId });
+    }
+    
     if (!cart) {
       throw new Error("Cart not found");
     }
@@ -436,7 +456,7 @@ class CartService {
     await this._recalculateCart(cart);
     await cart.save();
 
-    logger.info(`Coupon removed from cart for customer ${customerId}`);
+    logger.info(`Coupon removed from cart for ${customerId ? 'customer ' + customerId : 'guest ' + sessionId}`);
     
     // Re-populate after save to ensure fresh data
     await cart.populate("items.product items.shop");
