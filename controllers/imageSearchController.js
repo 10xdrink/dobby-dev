@@ -6,6 +6,7 @@ const Product = require("../models/productModel");
  */
 exports.searchProductsByImage = async (req, res) => {
   try {
+    console.log('📸 Image search request:', req.body);
     const { imageDescription, colors, detectedObjects } = req.body;
 
     if (!imageDescription && !colors && !detectedObjects) {
@@ -31,12 +32,16 @@ exports.searchProductsByImage = async (req, res) => {
     }
 
     // Remove duplicates and common words
+    const commonWords = ['the', 'and', 'with', 'for', 'this', 'that', 'from', 'have', 'are', 'was'];
     const uniqueTerms = [...new Set(searchTerms)].filter(
-      term => term.length > 2 && !['the', 'and', 'with', 'for'].includes(term)
+      term => term.length > 2 && !commonWords.includes(term.toLowerCase())
     );
+    
+    console.log('🔍 Search terms extracted:', uniqueTerms);
 
     // If no specific terms, return popular/top-rated products
     if (uniqueTerms.length === 0) {
+      console.log('⚠️ No search terms found, returning popular products');
       const popularProducts = await Product.find({ status: "active" })
         .populate("category", "name")
         .populate("subCategory", "name")
@@ -46,6 +51,7 @@ exports.searchProductsByImage = async (req, res) => {
         .sort({ averageRating: -1, totalSales: -1 })
         .lean();
 
+      console.log(`✅ Returning ${popularProducts.length} popular products`);
       return res.status(200).json({
         success: true,
         count: popularProducts.length,
@@ -95,6 +101,7 @@ exports.searchProductsByImage = async (req, res) => {
 
     // If still no products found, return top-rated products as suggestions
     if (products.length === 0) {
+      console.log('⚠️ No products found, returning fallback products');
       const fallbackProducts = await Product.find({ status: "active" })
         .populate("category", "name")
         .populate("subCategory", "name")
@@ -104,6 +111,7 @@ exports.searchProductsByImage = async (req, res) => {
         .sort({ averageRating: -1 })
         .lean();
 
+      console.log(`✅ Returning ${fallbackProducts.length} fallback products`);
       return res.status(200).json({
         success: true,
         count: fallbackProducts.length,
@@ -131,6 +139,7 @@ exports.searchProductsByImage = async (req, res) => {
     // Sort by relevance score
     productsWithScore.sort((a, b) => b.relevanceScore - a.relevanceScore);
 
+    console.log(`✅ Found ${productsWithScore.length} products matching image`);
     res.status(200).json({
       success: true,
       count: productsWithScore.length,
@@ -141,11 +150,24 @@ exports.searchProductsByImage = async (req, res) => {
         : "Sorry, we couldn't find any matching products for this image",
     });
   } catch (error) {
-    console.error("Error in image search:", error);
-    res.status(500).json({
+    console.error("❌ Error in image search:", error);
+    
+    // Handle specific error types
+    let statusCode = 500;
+    let message = "Error searching products by image";
+    
+    if (error.name === 'MongoTimeoutError') {
+      statusCode = 504;
+      message = "Database timeout. Please try again.";
+    } else if (error.name === 'ValidationError') {
+      statusCode = 400;
+      message = "Invalid search parameters";
+    }
+    
+    res.status(statusCode).json({
       success: false,
-      message: "Error searching products by image",
-      error: error.message,
+      message,
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined,
     });
   }
 };
@@ -156,12 +178,27 @@ exports.searchProductsByImage = async (req, res) => {
  */
 exports.analyzeImage = async (req, res) => {
   try {
+    console.log('🖼️ Image analysis request received');
     const { imageBase64 } = req.body;
     
     if (!imageBase64) {
       return res.status(400).json({
         success: false,
         message: "Please provide image data",
+      });
+    }
+    
+    // Validate image size (roughly 5MB limit)
+    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '');
+    const sizeInBytes = Buffer.from(base64Data, 'base64').length;
+    const sizeInMB = sizeInBytes / (1024 * 1024);
+    
+    console.log(`📊 Image size: ${sizeInMB.toFixed(2)} MB`);
+    
+    if (sizeInMB > 5) {
+      return res.status(413).json({
+        success: false,
+        message: "Image file is too large. Please select an image smaller than 5MB.",
       });
     }
 
@@ -185,17 +222,28 @@ exports.analyzeImage = async (req, res) => {
     ];
     analysis.objects = [...analysis.labels];
 
+    console.log('✅ Image analysis complete:', analysis);
     res.status(200).json({
       success: true,
       analysis,
       message: "Image analyzed successfully",
     });
   } catch (error) {
-    console.error("Error analyzing image:", error);
-    res.status(500).json({
+    console.error("❌ Error analyzing image:", error);
+    
+    // Handle specific errors
+    let statusCode = 500;
+    let message = "Error analyzing image";
+    
+    if (error.name === 'PayloadTooLargeError') {
+      statusCode = 413;
+      message = "Image file is too large";
+    }
+    
+    res.status(statusCode).json({
       success: false,
-      message: "Error analyzing image",
-      error: error.message,
+      message,
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined,
     });
   }
 };
