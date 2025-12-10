@@ -445,6 +445,7 @@ exports.completeSignup = async (req, res) => {
       message: "Signup completed",
       token,
       customer: {
+        _id: customer._id,
         firstName: customer.firstName,
         lastName: customer.lastName,
         email: customer.email,
