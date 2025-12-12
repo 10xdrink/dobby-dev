@@ -1095,4 +1095,6 @@ async _recalculateCart(cart, opts = {}) {
   }
 }
 
+}
+
 module.exports = new CartService();

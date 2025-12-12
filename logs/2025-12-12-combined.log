@@ -1,0 +1,66 @@
+2025-12-12 15:16:40 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-12 15:16:40 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-12 15:16:40 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-12 15:16:41 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-12 15:16:45 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis://default:***@redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-12 15:16:45 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-12-12 15:16:46 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-12 15:16:46 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-12 15:16:47 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-12 15:16:47 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-12 15:16:47 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-12 15:17:06 [[32minfo[39m] : [32mClosing Redis connection...[39m
+2025-12-12 15:17:11 [[32minfo[39m] : [32mNODE_ENV:[39m
+2025-12-12 15:17:11 [[32minfo[39m] : [32mFRONTEND_PROD:[39m
+2025-12-12 15:17:11 [[32minfo[39m] : [32mFRONTEND_LOCAL:[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32mInitializing analytics cron jobs[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'HOURLY_UPDATE_SCHEDULED',[39m
+[32m  schedule: 'Every hour at 0 minutes'[39m
+[32m}[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'DAILY_FINALIZATION_SCHEDULED',[39m
+[32m  schedule: 'Every day at midnight (00:00)'[39m
+[32m}[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'PERIODIC_RECALCULATION_SCHEDULED',[39m
+[32m  schedule: 'Every 6 hours'[39m
+[32m}[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32mAll analytics cron jobs scheduled[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{ event: 'SITEMAP_HOOKS_INITIALIZED' }[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'CUSTOMER_GROUPING_CRON_REGISTERED',[39m
+[32m  schedule: 'Daily at 2:00 AM'[39m
+[32m}[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{[39m
+[32m  event: 'REDIS_CONNECTED',[39m
+[32m  url: 'redis://default:***@redis-15679.crce217.ap-south-1-1.ec2.cloud.redislabs.com:15679'[39m
+[32m}[39m
+2025-12-12 15:17:12 [[32minfo[39m] : [32m{ event: 'REDIS_READY' }[39m
+2025-12-12 15:17:13 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-12 15:17:13 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-12 15:17:14 [[32minfo[39m] : [32mFound 1 active OAuth providers[39m
+2025-12-12 15:17:14 [[32minfo[39m] : [32mSetting up google strategy[39m
+2025-12-12 15:17:14 [[32minfo[39m] : [32mCustomer group seeding skipped (groups are now customer-specific)[39m
+2025-12-12 15:17:17 [[32minfo[39m] : [32mClosing Redis connection...[39m
