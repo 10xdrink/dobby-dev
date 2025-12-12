@@ -43,6 +43,21 @@ function normalizeKeywords(arr) {
   return [...new Set(normalized)].slice(0, 40);
 }
 
+function escapeRegExp(str) {
+  return String(str).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function sanitizeSearchTerm(term) {
+  const t = String(term || "")
+    .toLowerCase()
+    .trim()
+    // remove anything that can break regex or search quality
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return t;
+}
+
 async function analyzeWithOpenRouter(imageBase64) {
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
@@ -160,15 +175,19 @@ exports.searchProductsByImage = async (req, res) => {
     const searchTerms = [];
     
     if (imageDescription) {
-      searchTerms.push(...imageDescription.toLowerCase().split(' '));
+      searchTerms.push(...sanitizeSearchTerm(imageDescription).split(' '));
     }
     
     if (detectedObjects && Array.isArray(detectedObjects)) {
-      searchTerms.push(...detectedObjects.map(obj => obj.toLowerCase()));
+      searchTerms.push(
+        ...detectedObjects
+          .map((obj) => sanitizeSearchTerm(obj))
+          .flatMap((s) => s.split(' '))
+      );
     }
     
     if (colors && Array.isArray(colors)) {
-      searchTerms.push(...colors.map(color => color.toLowerCase()));
+      searchTerms.push(...colors.map((color) => sanitizeSearchTerm(color)));
     }
 
     // Remove duplicates and common words
@@ -190,31 +209,33 @@ exports.searchProductsByImage = async (req, res) => {
       });
     }
 
+    const escapedAlternation = uniqueTerms.map(escapeRegExp).join('|');
+
     // Search products using detected terms - more flexible matching
     const products = await Product.find({
       status: "active",
       $or: [
         {
           productName: {
-            $regex: uniqueTerms.join('|'),
+            $regex: escapedAlternation,
             $options: "i",
           },
         },
         {
           description: {
-            $regex: uniqueTerms.join('|'),
+            $regex: escapedAlternation,
             $options: "i",
           },
         },
         {
           searchTags: {
-            $in: uniqueTerms.map(term => new RegExp(term, 'i')),
+            $in: uniqueTerms.map((term) => new RegExp(escapeRegExp(term), 'i')),
           },
         },
         // Also search in category names
         {
           'category.name': {
-            $regex: uniqueTerms.join('|'),
+            $regex: escapedAlternation,
             $options: "i",
           },
         },
