@@ -391,17 +391,20 @@ exports.completeSignup = async (req, res) => {
 
     logger.info(`Signup completion attempt for ${normEmail || normPhone}`);
 
-    const customer = await Customer.findOne(
+    let customer = await Customer.findOne(
       buildOrFilterDefined({ email: normEmail, phone: normPhone })
     );
 
+    // For new users, the OTP verification step is expected to create the Customer record.
+    // But if the client skipped it, or the record wasn't created (race/edge case), we create it here.
     if (!customer) {
       logger.warn(
-        `Signup completion failed - customer not found: ${normEmail || normPhone}`
+        `Signup completion: customer not found, creating new customer for ${normEmail || normPhone}`
       );
-      return res
-        .status(404)
-        .json({ success: false, message: "Customer not found" });
+      customer = new Customer({
+        ...(normEmail ? { email: normEmail } : {}),
+        ...(normPhone ? { phone: normPhone } : {}),
+      });
     }
 
     customer.firstName = firstName;

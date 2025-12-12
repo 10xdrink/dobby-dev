@@ -49,6 +49,10 @@ async function analyzeWithOpenRouter(imageBase64) {
     throw new Error("OPENROUTER_API_KEY is not set");
   }
 
+  const imageUrl = String(imageBase64 || "").startsWith("data:image/")
+    ? String(imageBase64)
+    : `data:image/jpeg;base64,${String(imageBase64 || "")}`;
+
   const stripJsonFences = (text) => {
     const t = String(text || "").trim();
     if (!t) return "";
@@ -59,8 +63,9 @@ async function analyzeWithOpenRouter(imageBase64) {
       .trim();
   };
 
-  // Cheap vision-capable model (hardcoded). You can change this later without code changes.
-  const model = "google/gemini-2.0-flash-lite-preview";
+  const model =
+    process.env.OPENROUTER_VISION_MODEL ||
+    "openai/gpt-4o-mini";
   const prompt =
     "Analyze this product image for shopping search. Return ONLY valid JSON with keys: " +
     "labels (array of keywords), objects (array of objects), colors (array of color names), text (string with any readable text). " +
@@ -73,7 +78,7 @@ async function analyzeWithOpenRouter(imageBase64) {
         role: "user",
         content: [
           { type: "text", text: prompt },
-          { type: "image_url", image_url: { url: imageBase64 } },
+          { type: "image_url", image_url: { url: imageUrl } },
         ],
       },
     ],
@@ -81,17 +86,31 @@ async function analyzeWithOpenRouter(imageBase64) {
     max_tokens: 500,
   };
 
-  const response = await axios.post(
-    "https://openrouter.ai/api/v1/chat/completions",
-    payload,
-    {
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      timeout: 30000,
-    }
-  );
+  let response;
+  try {
+    response = await axios.post(
+      "https://openrouter.ai/api/v1/chat/completions",
+      payload,
+      {
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "http://localhost",
+          "X-Title": process.env.OPENROUTER_APP_NAME || "dobby-backend",
+        },
+        timeout: 30000,
+        maxBodyLength: 25 * 1024 * 1024,
+      }
+    );
+  } catch (err) {
+    const status = err?.response?.status;
+    const data = err?.response?.data;
+    const details =
+      (data && (data.error?.message || data.error?.code || JSON.stringify(data))) ||
+      err.message;
+
+    throw new Error(`OpenRouter request failed${status ? ` (${status})` : ""}: ${details}`);
+  }
 
   const content = response?.data?.choices?.[0]?.message?.content || "";
   const extracted = stripJsonFences(content);
