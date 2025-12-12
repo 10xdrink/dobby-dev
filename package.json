@@ -19,6 +19,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@paypal/checkout-server-sdk": "^1.0.3",
