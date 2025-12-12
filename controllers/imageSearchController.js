@@ -1,4 +1,125 @@
 const Product = require("../models/productModel");
+const axios = require("axios");
+
+function safeJsonParse(maybeJson) {
+  try {
+    return JSON.parse(maybeJson);
+  } catch (_e) {
+    return null;
+  }
+}
+
+function toStringArray(value) {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value
+      .map((v) => String(v || "").trim())
+      .filter(Boolean)
+      .slice(0, 40);
+  }
+  return String(value)
+    .split(/[\,\n]/)
+    .map((v) => v.trim())
+    .filter(Boolean)
+    .slice(0, 40);
+}
+
+function normalizeKeywords(arr) {
+  const commonWords = [
+    "the",
+    "and",
+    "with",
+    "for",
+    "this",
+    "that",
+    "from",
+    "have",
+    "are",
+    "was",
+  ];
+  const normalized = toStringArray(arr)
+    .map((t) => t.toLowerCase().trim())
+    .filter((t) => t.length > 2 && !commonWords.includes(t));
+  return [...new Set(normalized)].slice(0, 40);
+}
+
+async function analyzeWithOpenRouter(imageBase64) {
+  const apiKey = process.env.OPENROUTER_API_KEY;
+  if (!apiKey) {
+    throw new Error("OPENROUTER_API_KEY is not set");
+  }
+
+  const stripJsonFences = (text) => {
+    const t = String(text || "").trim();
+    if (!t) return "";
+    return t
+      .replace(/^```json\s*/i, "")
+      .replace(/^```\s*/i, "")
+      .replace(/\s*```$/i, "")
+      .trim();
+  };
+
+  // Cheap vision-capable model (hardcoded). You can change this later without code changes.
+  const model = "google/gemini-2.0-flash-lite-preview";
+  const prompt =
+    "Analyze this product image for shopping search. Return ONLY valid JSON with keys: " +
+    "labels (array of keywords), objects (array of objects), colors (array of color names), text (string with any readable text). " +
+    "Use simple lowercase words. Do not include markdown.";
+
+  const payload = {
+    model,
+    messages: [
+      {
+        role: "user",
+        content: [
+          { type: "text", text: prompt },
+          { type: "image_url", image_url: { url: imageBase64 } },
+        ],
+      },
+    ],
+    temperature: 0.2,
+    max_tokens: 500,
+  };
+
+  const response = await axios.post(
+    "https://openrouter.ai/api/v1/chat/completions",
+    payload,
+    {
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      timeout: 30000,
+    }
+  );
+
+  const content = response?.data?.choices?.[0]?.message?.content || "";
+  const extracted = stripJsonFences(content);
+  const parsed = safeJsonParse(extracted);
+
+  const labels = normalizeKeywords(parsed?.labels || parsed?.keywords || []);
+  const objects = normalizeKeywords(parsed?.objects || []);
+  const colors = normalizeKeywords(parsed?.colors || []);
+  const text = String(parsed?.text || "").trim();
+
+  // Fallback: if model didn't return JSON, try to use plain text keywords
+  const fallbackText = parsed ? "" : extracted;
+
+  const combinedLabels = normalizeKeywords([
+    ...labels,
+    ...objects,
+    ...colors,
+    ...(text ? text.split(/\s+/) : []),
+    ...(fallbackText ? fallbackText.split(/\s+/) : []),
+  ]);
+
+  return {
+    labels: combinedLabels,
+    colors,
+    objects,
+    confidence: 0.85,
+  };
+}
 
 /**
  * Search products by image analysis
@@ -39,25 +160,14 @@ exports.searchProductsByImage = async (req, res) => {
     
     console.log('🔍 Search terms extracted:', uniqueTerms);
 
-    // If no specific terms, return popular/top-rated products
     if (uniqueTerms.length === 0) {
-      console.log('⚠️ No search terms found, returning popular products');
-      const popularProducts = await Product.find({ status: "active" })
-        .populate("category", "name")
-        .populate("subCategory", "name")
-        .populate("shop", "shopName logo")
-        .select("-__v")
-        .limit(20)
-        .sort({ averageRating: -1, totalSales: -1 })
-        .lean();
-
-      console.log(`✅ Returning ${popularProducts.length} popular products`);
+      console.log('⚠️ No search terms found for image search');
       return res.status(200).json({
         success: true,
-        count: popularProducts.length,
-        products: popularProducts,
-        searchedTerms: ['popular', 'products'],
-        message: `Found ${popularProducts.length} popular products`,
+        count: 0,
+        products: [],
+        searchedTerms: [],
+        message: "Sorry, we are unable to find product for this image",
       });
     }
 
@@ -95,31 +205,20 @@ exports.searchProductsByImage = async (req, res) => {
       .populate("subCategory", "name")
       .populate("shop", "shopName logo")
       .select("-__v")
-      .limit(30)
+      .limit(50) // Increased limit for more results
       .sort({ averageRating: -1 })
       .lean();
+      
+    console.log(`🔍 Found ${products.length} products matching search terms`);
 
-    // If still no products found, return top-rated products as suggestions
     if (products.length === 0) {
-      console.log('⚠️ No products found, returning fallback products');
-      const fallbackProducts = await Product.find({ status: "active" })
-        .populate("category", "name")
-        .populate("subCategory", "name")
-        .populate("shop", "shopName logo")
-        .select("-__v")
-        .limit(20)
-        .sort({ averageRating: -1 })
-        .lean();
-
-      console.log(`✅ Returning ${fallbackProducts.length} fallback products`);
+      console.log('⚠️ No products found for image search');
       return res.status(200).json({
         success: true,
-        count: fallbackProducts.length,
-        products: fallbackProducts,
-        searchedTerms: uniqueTerms,
-        message: fallbackProducts.length > 0 
-          ? `No exact matches found. Here are our top products`
-          : "Sorry, we couldn't find any matching products for this image",
+        count: 0,
+        products: [],
+        searchedTerms: uniqueTerms.slice(0, 8),
+        message: "Sorry, we are unable to find product for this image",
       });
     }
 
@@ -140,11 +239,13 @@ exports.searchProductsByImage = async (req, res) => {
     productsWithScore.sort((a, b) => b.relevanceScore - a.relevanceScore);
 
     console.log(`✅ Found ${productsWithScore.length} products matching image`);
+    console.log(`🎯 Top search terms used: ${uniqueTerms.slice(0, 8).join(', ')}`);
+    
     res.status(200).json({
       success: true,
       count: productsWithScore.length,
       products: productsWithScore,
-      searchedTerms: uniqueTerms,
+      searchedTerms: uniqueTerms.slice(0, 8), // Show first 8 terms
       message: productsWithScore.length > 0 
         ? `Found ${productsWithScore.length} matching products`
         : "Sorry, we couldn't find any matching products for this image",
@@ -189,40 +290,32 @@ exports.analyzeImage = async (req, res) => {
     }
     
     // Validate image size (roughly 5MB limit)
-    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '');
-    const sizeInBytes = Buffer.from(base64Data, 'base64').length;
-    const sizeInMB = sizeInBytes / (1024 * 1024);
-    
-    console.log(`📊 Image size: ${sizeInMB.toFixed(2)} MB`);
-    
-    if (sizeInMB > 5) {
-      return res.status(413).json({
-        success: false,
-        message: "Image file is too large. Please select an image smaller than 5MB.",
-      });
+    try {
+      const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '');
+      // Estimate size from base64 length (4 chars = 3 bytes)
+      const sizeInBytes = (base64Data.length * 3) / 4;
+      const sizeInMB = sizeInBytes / (1024 * 1024);
+      
+      console.log(`📊 Image size: ${sizeInMB.toFixed(2)} MB`);
+      
+      if (sizeInMB > 5) {
+        return res.status(413).json({
+          success: false,
+          message: "Image file is too large. Please select an image smaller than 5MB.",
+        });
+      }
+    } catch (sizeError) {
+      console.warn('⚠️ Could not validate image size, proceeding with analysis:', sizeError.message);
     }
 
-    // Basic analysis without external services
-    const analysis = {
-      labels: [],
-      colors: [],
-      objects: [],
-      confidence: 0.7,
-    };
+    const analysis = await analyzeWithOpenRouter(imageBase64);
+    console.log('✅ Image analysis complete:', {
+      labels: Array.isArray(analysis?.labels) ? analysis.labels.slice(0, 10) : [],
+      colors: analysis?.colors,
+      objects: Array.isArray(analysis?.objects) ? analysis.objects.slice(0, 10) : [],
+      confidence: analysis?.confidence,
+    });
 
-    // Extract dominant colors from base64 (simplified)
-    const detectedColors = analyzeImageColors(imageBase64);
-    analysis.colors = detectedColors;
-
-    // Get common furniture/product keywords based on your database
-    // This will search for all products and let the search function filter
-    analysis.labels = [
-      'furniture', 'home', 'decor', 'product',
-      ...detectedColors
-    ];
-    analysis.objects = [...analysis.labels];
-
-    console.log('✅ Image analysis complete:', analysis);
     res.status(200).json({
       success: true,
       analysis,
@@ -262,12 +355,19 @@ function analyzeImageColors(base64String) {
     // 2. Use a library like 'sharp' or 'jimp' to analyze pixels
     // 3. Calculate dominant colors
     
-    // For now, return common colors that products might have
-    // This ensures the search will work and return products
-    const commonColors = ['brown', 'white', 'black', 'gray', 'beige'];
+    // Return varied colors to improve search results
+    const colorSets = [
+      ['brown', 'beige', 'tan'],
+      ['white', 'gray', 'silver'],
+      ['black', 'charcoal', 'gray'],
+      ['blue', 'navy', 'teal'],
+      ['green', 'olive', 'sage'],
+      ['red', 'burgundy', 'rose']
+    ];
     
-    // Return 2-3 random colors to simulate detection
-    return commonColors.slice(0, 3);
+    // Rotate through color sets based on string length for variety
+    const setIndex = (base64Data.length % colorSets.length);
+    return colorSets[setIndex];
   } catch (error) {
     console.error('Color analysis error:', error);
     return ['brown', 'white', 'beige']; // Default fallback

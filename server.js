@@ -212,8 +212,8 @@ const isProduction = process.env.NODE_ENV?.trim() === "production";
 console.log("NODE_ENV:", process.env.NODE_ENV);
 console.log("isProduction:", isProduction);
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json({ limit: "10mb" }));
+app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(cookieParser());
 
 app.use(modeMiddleware);
@@ -251,7 +251,7 @@ app.use((req, res, next) => {
   if (req.originalUrl.startsWith("/webhooks")) {
     next();
   } else {
-    express.json()(req, res, next);
+    express.json({ limit: "10mb" })(req, res, next);
   }
 });
 
