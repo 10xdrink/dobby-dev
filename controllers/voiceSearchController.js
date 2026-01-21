@@ -5,8 +5,8 @@ const path = require('path');
 const Product = require('../models/productModel');
 const { parseVoiceQuery } = require('../utils/voiceQueryParser');
 
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/audio/transcriptions';
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const GROQ_API_URL = 'https://api.groq.com/openai/v1/audio/transcriptions';
 
 const voiceSearch = async (req, res) => {
   try {
@@ -21,18 +21,17 @@ const voiceSearch = async (req, res) => {
     const filePath = req.file.path;
     console.log('[VoiceSearch] Processing audio file:', filePath);
 
-    // Transcribe audio using OpenRouter (Whisper model)
+    // Transcribe audio using Groq Whisper (Fast & Free)
     const formData = new FormData();
     formData.append('file', fs.createReadStream(filePath));
-    formData.append('model', 'openai/whisper-large-v3');
+    formData.append('model', 'whisper-large-v3');
     formData.append('language', 'en');
+    formData.append('response_format', 'json');
 
-    const transcription = await axios.post(OPENROUTER_API_URL, formData, {
+    const transcription = await axios.post(GROQ_API_URL, formData, {
       headers: {
         ...formData.getHeaders(),
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'HTTP-Referer': 'https://dobby-dev.onrender.com',
-        'X-Title': 'Dobby Voice Search',
+        'Authorization': `Bearer ${GROQ_API_KEY}`,
       },
     });
 
