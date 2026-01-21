@@ -1,7 +1,7 @@
 const OpenAI = require('openai');
 const fs = require('fs');
 const path = require('path');
-const Product = require('../models/Product');
+const Product = require('../models/productModel');
 const { parseVoiceQuery } = require('../utils/voiceQueryParser');
 
 const openai = new OpenAI({
