@@ -99,6 +99,7 @@ const cartRoutes = require("./routes/cartRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const returnRoutes = require("./routes/returnRoutes");
 const imageSearchRoutes = require("./routes/imageSearchRoutes");
+const voiceSearchRoutes = require("./routes/voiceSearchRoutes");
 const addressRoutes = require("./routes/addressRoutes");
 const abandonedcartRoutes = require("./routes/abandonedcartRoutes");
 const shiprocketRoutes = require("./routes/shiprocketRoutes");
@@ -269,6 +270,7 @@ app.use("/api/contact", contactRoutes);
 app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/products", productRoutes);
 app.use("/api/image-search", imageSearchRoutes);
+app.use("/api", voiceSearchRoutes);
 
 app.use("/api/seo", seoRoutes);
 app.use("/api/roles", roleRoutes);

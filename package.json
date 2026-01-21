@@ -61,6 +61,7 @@
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.6",
     "nodemon": "^3.1.11",
+    "openai": "^6.16.0",
     "papaparse": "^5.5.3",
     "passport": "^0.7.0",
     "passport-amazon": "^1.0.0",
