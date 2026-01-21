@@ -1,12 +1,12 @@
-const OpenAI = require('openai');
+const axios = require('axios');
+const FormData = require('form-data');
 const fs = require('fs');
 const path = require('path');
 const Product = require('../models/productModel');
 const { parseVoiceQuery } = require('../utils/voiceQueryParser');
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/audio/transcriptions';
 
 const voiceSearch = async (req, res) => {
   try {
@@ -21,11 +21,19 @@ const voiceSearch = async (req, res) => {
     const filePath = req.file.path;
     console.log('[VoiceSearch] Processing audio file:', filePath);
 
-    // Transcribe audio using OpenAI Whisper
-    const transcription = await openai.audio.transcriptions.create({
-      file: fs.createReadStream(filePath),
-      model: 'whisper-1',
-      language: 'en',
+    // Transcribe audio using OpenRouter (Whisper model)
+    const formData = new FormData();
+    formData.append('file', fs.createReadStream(filePath));
+    formData.append('model', 'openai/whisper-large-v3');
+    formData.append('language', 'en');
+
+    const transcription = await axios.post(OPENROUTER_API_URL, formData, {
+      headers: {
+        ...formData.getHeaders(),
+        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+        'HTTP-Referer': 'https://dobby-dev.onrender.com',
+        'X-Title': 'Dobby Voice Search',
+      },
     });
 
     // Clean up the uploaded file
@@ -33,7 +41,7 @@ const voiceSearch = async (req, res) => {
       if (err) console.error('[VoiceSearch] Error deleting file:', err);
     });
 
-    const rawTranscript = transcription.text || '';
+    const rawTranscript = transcription.data?.text || '';
     console.log('[VoiceSearch] Raw transcript:', rawTranscript);
 
     if (!rawTranscript.trim()) {
